@@ -1,0 +1,55 @@
+"firestorm"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Fire Storm"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		first_aid_kit_use_duration 2
+		hud_deathnotice_threats 1
+		pipe_bomb_initial_beep_interval 0.4
+		pipe_bomb_timer_duration 1.5
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_revive_duration 2
+		survivor_revive_health 100
+		sv_gravity 150
+		sv_infected_ceda_vomitjar_probability 0
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		sv_infinite_ammo 1
+		tank_burn_duration 30
+		tank_burn_duration_expert 30
+		tank_burn_duration_hard 30
+		tongue_range 2000
+		z_charger_health 150
+		z_gas_health 100
+		z_hit_from_behind_factor 1.0
+		z_hunter_health 150
+		z_jockey_health 150
+		z_spit_interval 6
+		z_spitter_health 50
+		z_tank_health 5000
+		z_tank_incapacitated_health 0
+		z_tank_throw_interval 800
+		z_witch_burn_time 10
+		//z_witch_health 10
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

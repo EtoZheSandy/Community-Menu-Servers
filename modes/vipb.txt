@@ -1,0 +1,56 @@
+"vipb"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Escort: BooM60"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		boomer_exposed_time_tolerance 99
+		boomer_leaker_chance 10
+		boomer_vomit_delay 0
+		first_aid_kit_use_duration 2
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_max_incapacitated_count 1
+		survivor_revive_duration 2
+		survivor_revive_health 50
+		z_boomer_gibs 1
+		z_exploding_health 1
+		z_exploding_speed 300
+		z_female_boomer_spawn_chance 50
+		z_vomit_duration 1.0
+		z_vomit_interval 20
+		z_wandering_density 0
+		z_mob_spawn_min_interval_expert 99999
+		z_mob_spawn_max_interval_expert 99999
+		z_mob_spawn_min_interval_easy 99999
+		z_mob_spawn_max_interval_easy 99999
+		z_mob_spawn_min_interval_hard 99999
+		z_mob_spawn_max_interval_hard 99999
+		z_mob_spawn_min_interval_normal 99999
+		z_mob_spawn_max_interval_normal 99999
+		z_mega_mob_spawn_min_interval 99999
+		z_mega_mob_spawn_max_interval 99999
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		sv_infected_ceda_vomitjar_probability 0
+		sv_infinite_primary_ammo 1
+		z_vomit_fade_duration 1
+		z_vomit_fade_start 1
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+	}
+}
+

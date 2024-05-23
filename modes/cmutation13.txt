@@ -1,0 +1,28 @@
+"cmutation13"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"BeserkeRAGE"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"dani1341"
+
+	convar
+	{
+		"sb_melee_approach_victim" 1
+		sv_infected_police_tonfa_probability 0
+		"sv_infected_riot_control_tonfa_probability" 0
+		"sv_infected_ceda_vomitjar_probability" 0
+		"adrenaline_duration" 3600
+		"adrenaline_run_speed" 300
+		"adrenaline_health_buffer" 0
+		"r_flashlightfov" 0
+		"sb_max_battlestation_range_from_human" 250
+		"sb_max_team_melee_weapons" 4
+	}
+}
+

@@ -1,0 +1,30 @@
+"cmutation26"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Ultra Realism"
+	"ShortDescription"	"Like in real life."
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"dani1341"
+
+	convar
+	{
+		"sv_disable_glow_survivors" 1
+		"sv_disable_glow_faritems" 1
+		"sv_rescue_disabled" 1
+		"z_non_head_damage_factor_multiplier" 0.5
+		"z_head_damage_causes_wounds" 1
+		"z_use_next_difficulty_damage_factor" 1
+		"z_witch_always_kills" 1
+		"z_difficulty" Impossible
+		"cl_drawhud" 0
+		"hidehud" 64
+		"sv_glowenable" 0
+		"sv_allow_votes" 0
+	}
+}
+

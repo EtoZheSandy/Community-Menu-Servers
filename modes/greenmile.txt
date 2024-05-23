@@ -1,0 +1,20 @@
+"greenmile"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Green Mile"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	""
+
+	convar
+	{
+		sb_dont_shoot 1
+	}
+}
+

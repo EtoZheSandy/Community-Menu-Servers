@@ -1,0 +1,37 @@
+"classicversuscoop"
+{
+	"base"		"versus"
+	"maxplayers"    "4"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Classic Versus Co-Op"
+	"ShortDescription"	""
+	"Description"	"Intended for play as the Infected against the Survivor bots, to practice for when you're ready to play Versus online against others."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		ammo_assaultrifle_max 360
+		ammo_autoshotgun_max 128
+		ammo_huntingrifle_max 180
+		ammo_shotgun_max 128
+		ammo_smg_max 480
+		sb_all_bot_game 1
+		sb_friend_immobilized_reaction_time_vs 0.0
+		vs_max_team_switches 99
+		z_female_boomer_spawn_chance 100
+		z_gun_swing_coop_max_penalty 999999999
+		z_gun_swing_coop_min_penalty 999999999
+		z_versus_boomer_limit 1
+		z_versus_charger_limit 0
+		z_versus_hunter_limit 2
+		z_versus_jockey_limit 0
+		z_versus_smoker_limit 1
+		z_versus_spitter_limit 0
+	}
+}
+

@@ -1,0 +1,20 @@
+"hordes"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Hordes"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		survival_horde_stage_interval_decay 30
+		survival_tank_stage_interval 9999999999999999
+	}
+}
+

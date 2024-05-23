@@ -1,0 +1,22 @@
+"unitedrealism"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"United We Stand Realism"
+	"ShortDescription"	"United we stand together during the apocalypse."
+	"Description"	"The L4D1 Survivors are helping the L4D2 Survivors survive."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+		z_tank_health 8000
+		z_witch_health 2000
+	}
+}
+

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/cdc_soldier/bo2_cdc_eye_cornea_ceda"
+	"$bumpmap" "models/player/fbi_assault/mp_eye_n_ceda"
+	"$additive" "1"
+}

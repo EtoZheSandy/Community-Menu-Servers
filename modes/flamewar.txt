@@ -1,0 +1,29 @@
+"flamewar"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Flame War"
+	"ShortDescription"	""
+	"Description"	"You've flamed the zombies, now flame your friends! The Pyromania mutation now makes its appearance into the world of VS! Due to the infinite molotovs and immunity to fire for the survivors, to make it fair on the infected, they have a much decreased spawn time. However, in return, Chargers can now be shoved off of survivors they are pinning."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SuperNerd000"
+
+	convar
+	{
+		sv_infected_police_tonfa_probability 0
+		"sv_infected_riot_control_tonfa_probability" 0
+		"sv_infected_ceda_vomitjar_probability" 0
+		"survivor_burn_factor_easy" 0
+		"survivor_burn_factor_normal" 0
+		"survivor_burn_factor_hard" 0
+		"survivor_burn_factor_expert" 0
+		"sv_infinite_ammo" 1
+		"survivor_max_incapacitated_count" 0
+		"z_charger_allow_shove" 1
+	}
+}
+

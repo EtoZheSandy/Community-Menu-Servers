@@ -1,0 +1,28 @@
+"tankassault"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Tank Assault"
+	"ShortDescription"	""
+	"Description"	"These Tanks will stop at nothing to prevent you from surviving.
+
+Endless waves of Tanks spawn in an attempt to prevent the Survivors from surviving."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		hud_deathnotice_threats 1
+		survival_lull_time 5 //15
+		survival_lull_time_increment 5 //15
+		survival_lull_time_max 15 //60
+		survival_tank_stage_interval 5
+		survival_tank_stage_interval_decay 0
+		survival_tank_multiple_spawn_delay 0
+		z_tank_incapacitated_health 0
+	}
+}
+

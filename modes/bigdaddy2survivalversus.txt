@@ -1,0 +1,63 @@
+"bigdaddy2survivalversus"
+{
+	"base"		"survival"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Big Daddy Survival Versus"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Tygerwoody|Rayman1103|CrazyMikeComics"
+
+	convar
+	{
+		"z_scrimmage_creep_delay" 0
+		"z_scrimmage_creep_rate" 100
+		"z_spawn_safety_range" 200
+		"z_max_stagger_duration" 0.9
+		"sv_alltalk" 0
+		"z_ghost_los_expected_progress" 2000
+		"director_special_initial_spawn_delay_min" 2
+		"director_special_initial_spawn_delay_max" 10
+		//z_exploding_inner_radius 0
+		//z_exploding_outer_radius 0
+		nb_vision_ignore_survivors 1
+		z_charge_duration 5
+		z_female_boomer_spawn_chance 0
+		z_vomit_interval 5
+		"z_charger_health" 99999
+		"z_charge_max_damage" 0
+		"spitter_pz_claw_dmg" 17
+		"z_spitter_health" 100
+		"z_spitter_speed" 475
+		"z_spit_interval" 10
+		"z_charge_start_speed" 100
+		"z_spit_latency" 1
+		"spitter_pz_claw_dmg" 15
+		"z_charger_pound_dmg" 8
+		"director_no_bosses" 1
+		z_mob_spawn_max_size 25
+		z_mob_spawn_min_size 20
+		z_mob_spawn_min_interval_easy 90
+		z_mob_spawn_min_interval_expert 90
+		z_mob_spawn_min_interval_hard 90
+		z_mob_spawn_min_interval_normal 90
+		z_mob_spawn_min_interval_easy 120
+		z_mob_spawn_min_interval_expert 120
+		z_mob_spawn_min_interval_hard 120
+		z_mob_spawn_min_interval_normal 120
+		z_mega_mob_spawn_max_interval 390
+		z_mega_mob_spawn_min_interval 390
+		z_speed 205
+		z_versus_boomer_limit 3
+		z_versus_charger_limit 1
+		z_versus_hunter_limit 0
+		z_versus_jockey_limit 0
+		z_versus_smoker_limit 0
+		z_versus_spitter_limit 0
+	}
+}
+

@@ -1,0 +1,37 @@
+"gungamess"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Left 4 Gun Game: Special Surprise"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_revive_health 25
+		sv_infected_ceda_vomitjar_probability 0.0
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0.0
+		sv_infinite_ammo 1
+		z_tank_health 3000
+		z_witch_health 250
+		sb_all_bot_game 100
+		allow_all_bot_survivor_team 1
+	}
+}
+

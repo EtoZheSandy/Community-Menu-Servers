@@ -1,0 +1,63 @@
+"insanity"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Insanity"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"John Volkov"
+
+	convar
+	{
+		"fog_override" 1
+		"fog_enable" 1
+		"fog_start" 242
+		"fog_end" 730
+		"fog_startskybox" -10000
+		"fog_endskybox" -10000
+		"fog_enableskybox" 1
+		"first_aid_heal_percent" 0.9
+		"pain_pills_health_value" 65
+		"pain_pills_decay_rate" 0.21
+		"director_pain_pill_density" 7.48
+		"ammo_shotgun_max" 72
+		"ammo_assaultrifle_max" 420
+		"ammo_autoshotgun_max" 130
+		"ammo_huntingrifle_max" 180
+		"ammo_m60_max" 100
+		"ammo_sniperrifle_max" 220
+		"z_tank_speed" 275
+		"z_speed" 450
+		"z_hunter_health" 350
+		"z_jockey_health" 435
+		"z_smoker_health" 300
+		"z_charger_health" 725
+		"z_spitter_health" 200
+		"z_mute_infected" 1
+		"music_manager" 0
+		"snd_music_volume" 0
+		"survivor_max_incapacitated_count" 2
+		"z_hear_gunfire_range" 2000
+		"z_hear_runner_far_range" 2000
+		"z_hear_runner_near_range" 2000
+		"z_close_target_notice_distance" 240
+		"director_melee_weapon_density" 24
+		"z_mega_mob_size" 50
+		"z_mob_spawn_min_size" 25
+		"z_mob_spawn_max_size" 50
+		"z_mob_spawn_finale_size" 50
+		"z_mob_spawn_max_interval_easy" 30
+		"z_mob_spawn_max_interval_expert" 45
+		"z_mob_spawn_max_interval_hard" 40
+		"z_mob_spawn_max_interval_normal" 35
+		"z_mob_spawn_min_interval_easy" 25
+		"z_mob_spawn_min_interval_expert" 30
+		"z_mob_spawn_min_interval_hard" 30
+		"z_mob_spawn_min_interval_normal" 30
+	}
+}
+

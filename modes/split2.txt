@@ -1,0 +1,34 @@
+"split2"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Split Decision: M60 Edition"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_revive_health 100
+		sv_infinite_primary_ammo 1
+		z_exploding_shove_max 4
+		z_exploding_shove_min 3
+		z_tank_health 2000
+		z_tank_incapacitated_health 0
+	}
+}
+

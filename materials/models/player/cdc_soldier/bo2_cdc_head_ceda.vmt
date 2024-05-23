@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/cdc_soldier/bo2_cdc_head_ceda"
+	"$bumpmap" "models/player/cdc_soldier/bo2_cdc_head_n_ceda"
+	"$phong" "1"
+	"$phongboost" "0.2"		
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongexponent" "6"
+}

@@ -1,0 +1,23 @@
+"bombardment"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Bombardment"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sb_melee_approach_victim 1
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		"sv_infinite_primary_ammo" 1
+		z_tank_health 8000
+	}
+}
+

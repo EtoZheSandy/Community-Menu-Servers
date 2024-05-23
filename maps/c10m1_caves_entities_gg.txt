@@ -1,0 +1,32 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 90.5 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "-11893.6 -14339.7 -149.103"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 181 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "-12252.6 -7386.75 -48"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 90.5 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "-12486.6 -5165.63 -400"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 209 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "-10693 -4837 584"
+}

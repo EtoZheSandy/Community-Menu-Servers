@@ -1,0 +1,31 @@
+"scavengecoop"
+{
+	"base"		"scavenge"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Scavenge Co-op"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		z_common_limit 100
+		z_mega_mob_size 50
+		z_mob_spawn_max_size 50
+		z_mob_spawn_min_size 25
+		z_mob_spawn_max_interval_easy 25
+		z_mob_spawn_max_interval_expert 25
+		z_mob_spawn_max_interval_hard 25
+		z_mob_spawn_max_interval_normal 25
+		z_mob_spawn_min_interval_easy 25
+		z_mob_spawn_min_interval_expert 25
+		z_mob_spawn_min_interval_hard 25
+		z_mob_spawn_min_interval_normal 25
+		z_respawn_interval 0
+	}
+}
+

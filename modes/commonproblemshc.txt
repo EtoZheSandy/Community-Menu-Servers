@@ -1,0 +1,36 @@
+"commonproblemshc"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Hardcore Common Problems"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		"director_no_specials" 1
+		"director_no_bosses" 1
+		vomitjar_duration_survivor 20
+		vomitjar_radius_survivors 110
+		z_mega_mob_size 50
+		z_mob_spawn_min_size 25
+		z_mob_spawn_max_size 50
+		z_mob_spawn_finale_size 50
+		z_mob_spawn_max_interval_easy 30
+		z_mob_spawn_max_interval_expert 30
+		z_mob_spawn_max_interval_hard 30
+		z_mob_spawn_max_interval_normal 30
+		z_mob_spawn_min_interval_easy 30
+		z_mob_spawn_min_interval_expert 30
+		z_mob_spawn_min_interval_hard 30
+		z_mob_spawn_min_interval_normal 30
+		hidehud 64
+		cl_drawhud 0
+	}
+}
+

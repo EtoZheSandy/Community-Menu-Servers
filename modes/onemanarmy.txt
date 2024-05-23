@@ -1,0 +1,28 @@
+"onemanarmy"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"One Man Army"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SR69MMJC"
+
+	convar
+	{
+		z_tank_health 1
+		z_witch_health 1
+		z_difficulty Impossible
+		survivor_revive_health 45
+		//tongue_start_pull_delay 3
+		//tongue_break_from_damage_amount 1
+		//tongue_health 1
+		z_spit_latency 0.1
+		tongue_no_progress_choke_early_delay 3
+		sv_pausable 1
+	}
+}
+

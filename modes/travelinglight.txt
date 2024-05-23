@@ -1,0 +1,29 @@
+"travelinglight"
+{
+	"base"		"coop"
+	"maxplayers"    "2"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Traveling Light"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Xeesheava"
+
+	convar
+	{
+		sv_disable_glow_survivors 1
+		sv_disable_glow_faritems 1
+		sv_rescue_disabled 1
+		z_non_head_damage_factor_multiplier 0.5
+		z_head_damage_causes_wounds 1
+		z_witch_always_kills 1
+		//survivor_limit 2
+		director_no_survivor_bots 1
+		first_aid_kit_max_heal 150
+		pain_pills_health_value 150
+		sv_pausable 1
+	}
+}
+

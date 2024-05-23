@@ -1,0 +1,27 @@
+"suicideboombers"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Suicide Boombers"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		boomer_exposed_time_tolerance 99.0
+		boomer_leaker_chance 100
+		sb_max_team_melee_weapons 4
+		z_exploding_speed 999
+		z_exploding_inner_radius 140
+		z_exploding_outer_radius 230
+		z_tank_health 1000
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

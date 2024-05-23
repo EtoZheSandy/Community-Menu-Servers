@@ -1,0 +1,66 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 180 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "6894.4 -654.6 769"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 0 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "3927.29 566.524 528"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 0 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "2857.09 1334.19 416"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 90 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "4918.61 1995.72 48"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_vehicles/train_ladder.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2873 1158 487"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_vehicles/train_ladder.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2876 1286 399"
+}

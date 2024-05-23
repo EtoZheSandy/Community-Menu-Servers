@@ -1,0 +1,24 @@
+"bleedoutvscoop"
+{
+	"base"		"versus"
+	"maxplayers"    "4"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Bleedout Versus Co-op"
+	"ShortDescription"	""
+	"Description"	"Intended for play as the Infected against the Survivor bots, to practice for when you're ready to play Versus online against others."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		pain_pills_decay_rate 0.27
+		sb_all_bot_game 1
+		sb_friend_immobilized_reaction_time_vs 0.0
+		vs_max_team_switches 99
+	}
+}
+

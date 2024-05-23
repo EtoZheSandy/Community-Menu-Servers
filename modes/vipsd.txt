@@ -1,0 +1,31 @@
+"vipsd"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Escort: Split Decision"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		survivor_revive_health 100
+		sv_infinite_primary_ammo 1
+		tank_throw_allow_range 999999
+		z_exploding_shove_max 4
+		z_exploding_shove_min 3
+		z_tank_health 2000
+		z_tank_incapacitated_health 0
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+	}
+}
+

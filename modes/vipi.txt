@@ -1,0 +1,38 @@
+"vipi"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Escort: Infestation"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		claw_range 36
+		director_special_initial_spawn_delay_max 0
+		director_special_initial_spawn_delay_min 0
+		director_special_respawn_interval 0
+		first_aid_kit_use_duration 3
+		survivor_revive_duration 4
+		survivor_revive_health 50
+		z_allow_ai_to_use_abilities 0
+		z_boomer_limit 0
+		z_charger_limit 0
+		z_hunter_health 110
+		z_hunter_limit 15
+		z_hunter_speed 30
+		z_jockey_limit 0
+		z_smoker_limit 0
+		z_respawn_interval 0
+		z_special_spawn_interval 0
+		z_spitter_limit 0
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+	}
+}
+

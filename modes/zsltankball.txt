@@ -1,0 +1,63 @@
+"zsltankball"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Competitive Tankball!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|ANG3Lskye"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		allow_all_bot_survivor_team 1
+		sb_all_bot_game 1
+		adrenaline_backpack_speedup 1.0
+		adrenaline_duration 0.0
+		adrenaline_health_buffer 0
+		adrenaline_revive_speedup 1.0
+		adrenaline_run_speed 210
+		z_tank_speed 300
+		z_tank_throw_interval 800
+		hud_deathnotice_threats 1
+		sb_dont_shoot 1
+		survivor_speed 160
+		sv_gravity 200
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_limp_health 2
+		survivor_max_incapacitated_count 0
+		tank_burn_duration 999999
+		tank_burn_duration_expert 999999
+		tank_burn_duration_hard 999999
+		tank_stuck_visibility_tolerance_suicide 999999
+		tank_stuck_failsafe 0
+		tank_stasis_time_suicide 999999
+		tank_throw_allow_range 999999
+		//z_tank_health 999999
+		z_tank_damage_slow_max_range 0
+		z_tank_damage_slow_min_range 0
+		z_tank_incapacitated_health 0
+		pain_pills_health_value 100
+		survival_round_restart_delay 10
+		survival_tank_stage_interval 999999
+		survival_tank_stage_interval_decay 0
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+	}
+}
+

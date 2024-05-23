@@ -1,0 +1,23 @@
+"l4d2vs"
+{
+	"base"		"coop"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"L4D2 Versus"
+	//"ShortDescription"	""
+	"Description"	"Play Versus new school!"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		z_female_boomer_spawn_chance 0
+		z_versus_boomer_limit 0
+		z_versus_hunter_limit 0
+		z_versus_smoker_limit 0
+	}
+}
+

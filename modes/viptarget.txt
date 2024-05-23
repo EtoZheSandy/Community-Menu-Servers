@@ -1,0 +1,15 @@
+"viptarget"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Target"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|Valve"
+}
+

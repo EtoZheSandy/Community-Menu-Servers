@@ -1,0 +1,53 @@
+"chaos"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Chaos"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"John Volkov"
+
+	convar
+	{
+		"fog_override" 1
+		"fog_enable" 1
+		"fog_start" 242
+		"fog_end" 730
+		"fog_startskybox" -10000
+		"fog_endskybox" -10000
+		"fog_enableskybox" 1
+		"z_spawn_mobs_behind_chance" 33
+		"z_mob_spawn_min_size" 50
+		"z_mob_spawn_max_size" 80
+		"z_mob_population_density" 4
+		"z_spawn_speed" 80
+		"z_common_limit" 90
+		"z_mega_mob_size" 90
+		"z_mob_spawn_min_interval_normal" 4
+		"z_mob_spawn_max_interval_normal" 8
+		"z_boomer_limit" 0
+		"z_charger_limit" 0
+		"z_hunter_limit" 0
+		"z_jockey_limit" 0
+		"z_smoker_limit" 0
+		"z_spitter_limit" 0
+		"ammo_shotgun_max" 24
+		"ammo_smg_max" 150
+		"ammo_assaultrifle_max" 120
+		"ammo_autoshotgun_max" 30
+		"ammo_huntingrifle_max" 45
+		"ammo_grenadelauncher_max" 5
+		"ammo_sniperrifle_max" 30
+		"z_tank_speed" 120
+		"z_tank_health" 9000
+		"z_tank_throw_force" 520
+		"z_tank_throw_health" 75
+		"z_speed" 150
+		"z_health" 550
+	}
+}
+

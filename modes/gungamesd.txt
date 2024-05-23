@@ -1,0 +1,43 @@
+"gungamesd"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Left 4 Gun Game: Special Edition"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		car_alarm_chirp_distance 0
+		car_alarm_distance 0
+		hud_deathnotice_threats 1
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_revive_duration 3
+		survivor_revive_health 100
+		sv_infinite_ammo 1
+		z_boomer_gibs 1
+		z_special_burn_dmg_scale 15
+		z_survivor_respawn_health 100
+		z_tank_health 3000
+		z_witch_health 690
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

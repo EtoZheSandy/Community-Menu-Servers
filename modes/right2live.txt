@@ -1,0 +1,21 @@
+"right2live"
+{
+	"base"		"coop"
+	"maxplayers"    "2"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Right 2 Live"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		//survivor_limit 2
+		director_no_survivor_bots 1
+		sv_pausable 1
+	}
+}
+

@@ -1,0 +1,44 @@
+"sniperforce"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Sniper Force"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sv_infinite_ammo 1
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_max_incapacitated_count 1
+		survivor_respawn_with_guns 2
+		survivor_revive_health 100
+		tank_throw_allow_range 999999
+		tongue_choke_damage_amount 5
+		z_charger_health 1
+		z_exploding_health 1
+		z_gas_health 1
+		z_hunter_health 1
+		z_jockey_health 1
+		z_spitter_health 1
+		z_tank_health 2500
+		z_witch_health 700
+		z_spit_interval 5
+		z_survivor_respawn_health 100
+		z_vomit_range 600
+		z_vomit_target_range 580
+		z_gun_swing_coop_max_penalty 99999999
+		z_gun_swing_coop_min_penalty 99999999
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

@@ -1,0 +1,21 @@
+"deathsdoorvs"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Death's Door Versus"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		survivor_max_incapacitated_count 0
+		z_tank_health 2667
+	}
+}
+

@@ -1,0 +1,30 @@
+"cmutation31"
+{
+	"base"		"versus"
+	"maxplayers"    "4"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Last Duo On Earth"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"dani1341"
+
+	convar
+	{
+		"z_jockey_ride_damage" 15
+		"z_pounce_damage" 10
+		"tongue_choke_damage_amount" 15
+		"tongue_drag_damage_amount" 15
+		"sb_all_bot_team" 1
+		"sb_all_bot_game" 1
+		"allow_all_bot_survivor_team" 1
+		"maxplayers" 4
+		"survivor_limit" 2
+		"z_versus_boomer_limit" 0
+		"z_max_player_zombies" 2
+	}
+}
+

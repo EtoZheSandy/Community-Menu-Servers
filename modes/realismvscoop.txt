@@ -1,0 +1,32 @@
+"realismvscoop"
+{
+	"base"		"versus"
+	"maxplayers"    "4"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Realism Versus Co-Op"
+	"ShortDescription"	""
+	"Description"	"Intended for play as the Infected against the Survivor bots, to practice for when you're ready to play Versus online against others."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		director_special_initial_spawn_delay_max 10
+		director_special_initial_spawn_delay_min 2
+		sb_all_bot_game 1
+		sb_friend_immobilized_reaction_time_vs 0.0
+		sv_disable_glow_faritems 1
+		sv_disable_glow_survivors 1
+		sv_rescue_disabled 1
+		vs_max_team_switches 99
+		z_head_damage_causes_wounds 1
+		z_non_head_damage_factor_multiplier 0.5
+		z_use_next_difficulty_damage_factor 1
+		z_witch_always_kills 1
+	}
+}
+

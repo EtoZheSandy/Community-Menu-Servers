@@ -1,0 +1,29 @@
+"blastzone"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Blast Zone"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sb_melee_approach_victim 1
+		survivor_respawn_with_guns 2
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		sv_infinite_primary_ammo 1
+		tongue_range 1125
+		tongue_choke_damage_amount 15
+		z_exploding_speed 300
+		z_tank_health 8000
+		z_vomit_fade_duration 15
+		z_vomit_fade_start 15
+	}
+}
+

@@ -1,0 +1,66 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 180 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "2196.39 1285.3 297"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 0 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "2135.28 1652.5 16"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 270 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "931.921 5378.88 16"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 180 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "3220.79 3523.87 -240"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props/cs_militia/boxes_frontroom.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2070 1366 34.2673"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "-1.50425 89.8178 -90.7135"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props/cs_assault/washer_box.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2115 1386 120"
+}

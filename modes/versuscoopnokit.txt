@@ -1,0 +1,24 @@
+"versuscoopnokit"
+{
+	"base"		"versus"
+	"maxplayers"    "4"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Versus Co-op No Kits"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		director_pain_pill_density 1.50
+		sb_all_bot_game 1
+		sb_friend_immobilized_reaction_time_vs 0.0
+		vs_max_team_switches 99
+	}
+}
+

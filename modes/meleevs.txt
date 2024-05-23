@@ -1,0 +1,48 @@
+"meleevs"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Melee's VS the Infected"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|Rest In Peaces"
+
+	convar
+	{
+		director_gas_can_density 0.00
+		director_oxygen_tank_density 0.00
+		director_propane_tank_density 0.00
+		director_scavenge_item_override 1
+		sb_max_team_melee_weapons 4
+		//sb_melee_approach_victim 1
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		versus_wandering_zombie_density 0
+		vs_max_team_switches 99
+		z_mega_mob_spawn_max_interval 99999
+		z_mega_mob_spawn_min_interval 99999
+		z_mob_spawn_max_interval_easy 99999
+		z_mob_spawn_min_interval_easy 99999
+		z_mob_spawn_max_interval_expert 99999
+		z_mob_spawn_min_interval_expert 99999
+		z_mob_spawn_max_interval_hard 99999
+		z_mob_spawn_min_interval_hard 99999
+		z_mob_spawn_max_interval_normal 99999
+		z_mob_spawn_min_interval_normal 99999
+		z_tank_health 100
+		z_versus_boomer_limit 1
+		z_versus_charger_limit 0
+		z_versus_hunter_limit 2
+		z_versus_jockey_limit 0
+		z_versus_smoker_limit 0
+		z_versus_spitter_limit 1
+		z_wandering_density 0
+		z_witch_health 100
+	}
+}
+

@@ -1,0 +1,15 @@
+"swapped"
+{
+	"base"		"swapped"
+	"maxplayers"	"4"
+	"hasdifficulty"		"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Survivor Swap"
+	"ShortDescription"	"Swapped Survivors."
+	"Description"	"Survivor sets are swapped."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+}
+

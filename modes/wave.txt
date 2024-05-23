@@ -1,0 +1,22 @@
+"wave"
+{
+	"base"		"wave"
+	"maxplayers"    "4"
+	"hasdifficulty"		"1"
+	"singlechapter"		"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Wave"
+	"ShortDescription"	"Kill infected and purchase supplies at the Trader in order to survive!"
+	"Description"	"Kill infected and purchase supplies at the Trader in order to survive!"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+	}
+}
+

@@ -1,0 +1,42 @@
+"grenades"
+{
+	"base"		"coop"
+	"maxplayers"    "1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Solo Bombing Run"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"TheCombatMedic"
+
+	convar
+	{
+		"z_hunter_health" 550
+		"z_jockey_health" 635
+		"z_smoker_health" 600
+		"z_charger_health" 725
+		"z_spitter_health" 500
+		"z_tank_health" 10000
+		"z_witch_health" 2000
+		"sv_infinite_primary_ammo" 1
+		"z_witch_always_kills" 1
+		"sv_survivor_max_incapacitated_count" 0
+		"director_no_mobs" 1
+		"sv_z_max_stagger_duration" 1
+		"sv_z_pounce_damage" 20
+		"sv_z_pounce_damage_interval" 20
+		"sv_z_tank_grenade_damage" 500
+		"sv_z_tank_speed" 300
+		"sv_grenadelauncher_ff_scale_self" 0
+		"sv_z_jockey_ride_damage" 15
+		"sv_z_spitter_max_wait_time" 15
+		"sv_z_spitter_speed" 270
+		"sv_z_charger_pound_dmg" 25
+		"sv_z_charger_speed" 250
+		"sv_tongue_choke_damage_amount" 18
+		sv_pausable 1
+	}
+}
+

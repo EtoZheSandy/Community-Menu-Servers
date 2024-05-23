@@ -1,0 +1,52 @@
+"pitchblack"
+{
+	"base"		"coop"
+	"maxplayers"    "1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Pitch Black"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Karma Jockey"
+
+	convar
+	{
+		"z_common_limit" 0
+		"z_hunter_limit" 6
+		"z_hunter_health" 100
+		"director_no_mobs" 1
+		"snd_musicvolume" 0
+		"z_spawn_flow_limit" 500
+		"z_special_spawn_interval" 10
+		"director_special_respawn_interval" 10
+		"director_special_initial_spawn_delay_min" 10
+		"director_special_initial_spawn_delay_max" 30
+		"cl_glow_blur_scale" 0
+		"intensity_decay_time" 15
+		"director_relax_max_interval" 20
+		"director_relax_min_interval" 10
+		"first_aid_heal_percent" 0.9
+		"pain_pills_health_value" 65
+		"pain_pills_decay_rate" 0.21
+		"director_scavenge_item_override" 1
+		"director_pain_pill_density" 7.48
+		"director_pipe_bomb_density" 7.48
+		"director_molotov_density" 7.48
+		"director_pistol_density" 6
+		"fog_override" 1
+		"fog_enable" 1
+		"fog_start" 0
+		"fog_end" 300
+		"fog_startskybox" -10000
+		"fog_color" 1 1 1
+		"fog_colorskybox" 1 1 1
+		"fog_endskybox" -10000
+		"fog_enableskybox" 1
+		"music_manager" 0
+		"r_flashlightbrightness" 1.5
+		sv_pausable 1
+	}
+}
+

@@ -1,0 +1,36 @@
+"superhardmode"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Super Hard Mode"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SuperNerd000"
+
+	convar
+	{
+		z_charger_health 1800
+		z_hunter_health 750
+		z_jockey_health 975
+		z_spitter_health 300
+		z_tank_health 12000
+		z_witch_health 3000
+		z_exploding_health 150
+		z_gas_health 750
+		z_health 150
+		sv_disable_glow_survivors 1
+		sv_disable_glow_faritems 1
+		sv_rescue_disabled 1
+		z_non_head_damage_factor_multiplier 0.5
+		z_head_damage_causes_wounds 1
+		z_use_next_difficulty_damage_factor 1
+		z_witch_always_kills 1
+		hidehud 64
+		cl_drawhud 0
+	}
+}
+

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/cdc_soldier/bo2_cdc_mask_ceda"
+	"$bumpmap" "models/player/cdc_soldier/bo2_cdc_mask_n_ceda"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint"     "[ 0.015 0.015 0.015 ]"
+	"$envmapfresnel"   "1"
+	"$envmapFresnelMinMaxExp" "[0 4 .4]"
+	"$phong" "1"
+	"$phongboost" "2"		
+	"$phongfresnelranges"	"[1 3 5]"
+//	"$phongexponent" "6"
+	"$phongexponenttexture" "models/player/cdc_soldier/bo2_cdc_mask_s_ceda"
+	"$halflambert" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "1"
+	"$rimlightboost" "3"
+        "$AmbientOcclusion" "1"
+  
+}

@@ -1,0 +1,24 @@
+"vipdd"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Escort: Death's Door"
+	"ShortDescription"	"Protect the VIP at all cost!"
+	"Description"	"You must escort the VIP to the saferoom."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		first_aid_heal_percent 0.69
+		survivor_max_incapacitated_count 0
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+	}
+}
+

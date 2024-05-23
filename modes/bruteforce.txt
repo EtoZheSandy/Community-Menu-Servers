@@ -1,0 +1,71 @@
+"bruteforce"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Brute Force"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_max_incapacitated_count 0
+		survivor_respawn_with_guns 2
+		survivor_revive_health 50
+		sv_infinite_primary_ammo 1
+		tank_throw_allow_range 999999
+		tongue_choke_damage_amount 5
+		tongue_range 0
+		z_allow_ai_to_use_abilities 0
+		z_charge_duration 0
+		z_charge_interval 999
+		z_charger_health 1
+		z_exploding_health 1
+		z_exploding_speed 999
+		z_gas_health 1
+		z_gas_speed 999
+		z_hunter_health 1
+		//z_hunter_lunge_distance 0
+		z_hunter_speed 999
+		z_jockey_health 1
+		z_jockey_leap_again_timer 999
+		z_jockey_leap_range 0
+		z_jockey_leap_time 999
+		z_jockey_speed 999
+		z_leap_attach_distance 0
+		z_leap_force_attach_distance 0
+		z_leap_interval 999
+		z_leap_interval_post_incap 999
+		z_leap_interval_post_ride 999
+		z_leap_max_distance 0
+		z_speed 999
+		z_spit_interval 999
+		z_spit_range 0
+		z_spitter_health 1
+		z_spitter_range 0
+		z_spitter_speed 999
+		z_survivor_respawn_health 100
+		z_tank_health 2000
+		//z_vomit_duration 0
+		//z_vomit_interval 999
+		//z_vomit_range 0
+		//z_vomit_target_range 0
+		z_witch_health 500
+		z_vomit 0
+		z_vomit_range 600
+		z_vomit_target_range 580
+		z_gun_swing_coop_max_penalty 99999999
+		z_gun_swing_coop_min_penalty 99999999
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

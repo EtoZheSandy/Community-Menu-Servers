@@ -1,0 +1,49 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 30.5 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "-3784 -4454 477.768"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 240.5 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "537 -3757 1328"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 280 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "1470.93 -3596.99 316.616"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 90 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "6415.22 -6213.66 384"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_unique/metalladderbarge.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1837 -4515 1176"
+}

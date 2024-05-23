@@ -1,0 +1,37 @@
+"callofboomer"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Call of Boomer"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		ammo_smg_max -2
+		hud_deathnotice_threats 1
+		survivor_incap_decay_rate 10
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_max_incapacitated_count 1
+		survivor_revive_duration 2
+		survivor_revive_health 100
+		//sv_infected_ceda_vomitjar_probability 0.15 //0.25
+		sv_infinite_primary_ammo 1
+		vomitjar_duration_infected_bot 300
+		z_exploding_health 1
+		z_exploding_shove_max 99999999
+		z_exploding_shove_min 99999999
+		z_gun_swing_coop_max_penalty 999999999
+		z_gun_swing_coop_min_penalty 999999999
+		z_health 1
+		z_survivor_respawn_health 100
+		z_tank_incapacitated_health 0
+	}
+}
+

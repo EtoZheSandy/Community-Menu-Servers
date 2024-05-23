@@ -1,0 +1,31 @@
+"jockeys"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Jockeys!"
+	"ShortDescription"	""
+	"Description"	"This mutation features only Jockeys! Their health is lower, they run a hell of a lot faster, and there can be up to 20 of them. Excellent to practice dead-stopping Jockeys. However it is very easy to be quad-incapped, so be careful."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Karma Jockey"
+
+	convar
+	{
+		"z_smoker_limit" 0
+		"z_hunter_limit" 0
+		"z_spitter_limit" 0
+		"z_charger_limit" 0
+		"z_jockey_limit" 20
+		"z_boomer_limit" 0
+		"z_jockey_health" 200
+		"z_special_spawn_interval" 0
+		"director_special_respawn_interval" 0
+		"z_respawn_interval" 0
+		"director_special_initial_spawn_delay_max" 0
+		"director_special_initial_spawn_delay_min" 0
+		"z_jockey_speed" 999
+	}
+}
+

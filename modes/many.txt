@@ -1,0 +1,19 @@
+"many"
+{
+	"base"		"coop"
+	"maxplayers"    "1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"One Against Many"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		//sv_pausable 1
+	}
+}
+

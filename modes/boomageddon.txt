@@ -1,0 +1,41 @@
+"boomageddon"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Boomageddon"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		boomer_exposed_time_tolerance 99
+		defibrillator_use_duration 10
+		//pain_pills_health_value 100
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_incap_decay_rate 10
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_max_incapacitated_count 0 //0
+		//survivor_revive_duration 10
+		survivor_revive_health 50
+		sv_infinite_primary_ammo 1
+		z_allow_ai_to_use_abilities 0
+		z_exploding_health 1
+		z_exploding_shove_max 1
+		z_exploding_shove_min 1
+		z_exploding_speed 999 //420
+		z_female_boomer_spawn_chance 50
+		z_survivor_respawn_health 100
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

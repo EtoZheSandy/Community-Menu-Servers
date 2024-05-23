@@ -1,0 +1,30 @@
+"three_of_kind"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"3 of a Kind"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		hud_deathnotice_threats 1
+		pipe_bomb_initial_beep_interval 0.4
+		pipe_bomb_timer_duration 1.5
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		tank_throw_min_interval 30
+		z_tank_incapacitated_health 0
+		z_witch_health 500
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

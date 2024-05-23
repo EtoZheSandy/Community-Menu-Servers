@@ -1,0 +1,31 @@
+"lowgravity"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Low Gravity"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sv_gravity 200
+		survivor_max_incapacitated_count 1
+		"z_versus_boomer_limit" 1
+		"z_versus_hunter_limit" 3
+		"z_versus_smoker_limit" 2 
+		"z_versus_spitter_limit" 0
+		"z_versus_charger_limit" 1
+		"z_versus_jockey_limit" 1
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		versus_tank_chance 0
+		versus_tank_chance_intro 0
+	}
+}
+

@@ -1,0 +1,48 @@
+"zslmondaymn"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Monday Morning Target Acquired!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		allow_all_bot_survivor_team 1
+		hud_deathnotice_threats 1
+		sb_all_bot_game 1
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_revive_health 100
+		sv_infinite_ammo 1
+		tongue_choke_damage_amount 25
+		z_charger_pound_dmg 25
+		z_jockey_ride_damage 25
+		z_pounce_damage 25
+		z_tank_incapacitated_health 0
+		z_tank_speed 269
+		z_charger_health 1
+		z_exploding_health 1
+		z_gas_health 1
+		z_hunter_health 1
+		z_jockey_health 1
+		z_spitter_health 1
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+	}
+}
+

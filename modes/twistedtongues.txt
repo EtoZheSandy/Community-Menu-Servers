@@ -1,0 +1,31 @@
+"twistedtongues"
+{
+	"base"		"versus"
+	"maxplayers"    "4"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Twisted Tongue's"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"AwkwardOrpheus|Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		sb_all_bot_game 1
+		versus_tank_chance 0
+		versus_tank_chance_intro 0
+		z_tank_health 1000
+		z_gas_health 750
+		"z_versus_boomer_limit" 0
+		"z_versus_hunter_limit" 0
+		"z_versus_smoker_limit" 4 
+		"z_versus_spitter_limit" 0
+		"z_versus_charger_limit" 0
+		"z_versus_jockey_limit" 0
+	}
+}
+

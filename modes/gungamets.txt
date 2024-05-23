@@ -1,0 +1,44 @@
+"gungamets"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Left 4 Gun Game: Tank Splitters"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		first_aid_kit_use_duration 3
+		hud_deathnotice_threats 1
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_incap_decay_rate 10
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_revive_duration 1
+		survivor_revive_health 50
+		sv_infinite_ammo 1
+		tank_burn_duration 10
+		tank_burn_duration_expert 10
+		tank_burn_duration_hard 10
+		tank_throw_allow_range 999999
+		vomitjar_duration_infected_bot 10
+		vomitjar_duration_infected_pz 10
+		z_tank_incapacitated_health 5
+		z_tank_speed 300
+	}
+}
+

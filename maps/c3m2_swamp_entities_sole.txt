@@ -1,0 +1,49 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 278.5 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "-8682.42 7060.89 16"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 56.5 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "-1986.38 2778.07 23.4668"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 269.5 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "4244.83 3214.21 13.0748"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 108 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "8603.89 627.685 114.753"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "-12.7366 82.0556 18.0549"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_foliage/swamp_fallentree_dry01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-581 3008 -18"
+}

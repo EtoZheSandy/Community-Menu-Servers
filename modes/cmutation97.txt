@@ -1,0 +1,19 @@
+"cmutation97"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Crouch Sprinters"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	""
+
+	convar
+	{
+		"survivor_crouch_speed" 90000
+	}
+}
+

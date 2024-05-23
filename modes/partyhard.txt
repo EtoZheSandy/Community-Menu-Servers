@@ -1,0 +1,14 @@
+"partyhard"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Party Hard"
+	"ShortDescription"	""
+	"Description"	"Combines Hunting Party and Hard Eight."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+}
+

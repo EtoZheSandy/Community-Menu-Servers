@@ -1,0 +1,30 @@
+"karmabros"
+{
+	"base"		"coop"
+	"maxplayers"    "2"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Karma Bros"
+	"ShortDescription"	""
+	"Description"	"A two-player mutation. It's just you, your buddy, two melee weapons, and a constant stream of Chargers. Can you beat them down, or will you both be karma charged?"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|CrazyMikeComics"
+
+	convar
+	{
+		//survivor_limit 2
+		director_no_survivor_bots 1
+		"z_charger_limit" 2
+		"z_special_spawn_interval" 0
+		"director_special_respawn_interval" 0
+		"z_respawn_interval" 0
+		"director_special_initial_spawn_delay_max" 5
+		"director_special_initial_spawn_delay_min" 0
+		z_charge_interval 2
+		z_charger_pound_dmg 100
+		z_tank_health 5
+		sv_pausable 1
+	}
+}
+

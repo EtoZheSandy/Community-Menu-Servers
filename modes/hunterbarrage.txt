@@ -1,0 +1,22 @@
+"hunterbarrage"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Hunter Barrage"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sv_gravity 100
+		z_hunter_health 125
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

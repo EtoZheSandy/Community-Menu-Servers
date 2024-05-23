@@ -1,0 +1,27 @@
+"cocktailparty"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Cocktail Party"
+	"ShortDescription"	""
+	"Description"	"You were just trying to relax and have a drink when those rude zombies decided to swarm you. Might as not let all that booze go to waste! Welcome to the Survival version of Pyromania! How long can you last with nothing but each other, an infinite amount of molotovs, and an immunity to flames?"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SuperNerd000"
+
+	convar
+	{
+		sv_infected_police_tonfa_probability 0
+		"sv_infected_riot_control_tonfa_probability" 0
+		"sv_infected_ceda_vomitjar_probability" 0
+		"survivor_burn_factor_easy" 0
+		"survivor_burn_factor_normal" 0
+		"survivor_burn_factor_hard" 0
+		"survivor_burn_factor_expert" 0
+		"sv_infinite_ammo" 1
+		"survivor_max_incapacitated_count" 0
+	}
+}
+

@@ -1,0 +1,23 @@
+"tankbusters"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Tank Busters"
+	"ShortDescription"	""
+	"Description"	"Remember the Taaannnk!! mutation? Well, restore the Tanks to full health, decrease their spawn time, give the survivors infinite ammo nade launchers and you get Tank Busters!"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SuperNerd000"
+
+	convar
+	{
+		"z_spawn_safety_range" 600
+		"z_ghost_travel_distance" 2000
+		"z_frustration" 0
+		"sv_infinite_primary_ammo" 1
+	}
+}
+

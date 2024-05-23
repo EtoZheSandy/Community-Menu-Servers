@@ -1,0 +1,28 @@
+"specialaid"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Special Aid"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		hud_deathnotice_threats 1
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		sb_all_bot_game 1
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_revive_health 100
+		z_survivor_respawn_health 100
+		z_tank_incapacitated_health 0
+	}
+}
+

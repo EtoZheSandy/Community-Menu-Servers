@@ -1,0 +1,46 @@
+"gungamear"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Left 4 Gun Game: Air Raid"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		boomer_exposed_time_tolerance 99
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		//grenadelauncher_radius_stumble 100
+		//grenadelauncher_damage 250
+		//grenadelauncher_velocity 1500
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_respawn_with_guns 2
+		survivor_revive_health 100
+		sv_gravity 100
+		sv_infinite_ammo 1
+		z_exploding_health 125
+		z_exploding_speed 200
+		z_hunter_health 125
+		z_pounce_damage 7
+		z_tank_health 4500
+		z_vomit_interval 15
+		z_vomit_fade_duration 15
+		z_vomit_fade_start 15
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

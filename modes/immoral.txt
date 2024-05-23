@@ -1,0 +1,48 @@
+"immoral"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Immoral Support"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		hud_deathnotice_threats 1
+		survivor_incap_decay_rate 10
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_max_incapacitated_count 1
+		survivor_revive_duration 2
+		survivor_revive_health 100
+		sv_infected_ceda_vomitjar_probability 1
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		vomitjar_duration_infected_bot 300
+		z_charger_health 1
+		z_exploding_health 1
+		z_exploding_shove_max 99999999
+		z_exploding_shove_min 99999999
+		z_fallen_kill_suppress_time 60
+		z_fallen_max_count 3
+		z_forcezombiemodel 1
+		z_forcezombiemodelname uncommon
+		z_gas_health 1
+		z_gun_swing_coop_max_penalty 999999999
+		z_gun_swing_coop_min_penalty 999999999
+		z_health 1
+		z_hunter_health 1
+		z_jockey_health 1
+		//z_mob_spawn_max_size 40
+		//z_mob_spawn_min_size 30
+		z_spitter_health 1
+		z_survivor_respawn_health 100
+		z_tank_incapacitated_health 0
+	}
+}
+

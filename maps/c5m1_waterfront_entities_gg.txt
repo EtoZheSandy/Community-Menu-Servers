@@ -1,0 +1,74 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 179.5 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "778.497 -18.73 -375"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 269.5 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "-1639 -1749 -375"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 359.5 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "-2681 -1066 -375"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 359.5 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "-3642 -1185 -375"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 0 -10"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props/de_nuke/crate_small.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "776 81.7979 -380"
+}
+"entity"
+{
+	"classname" "env_player_blocker"
+	"initialstate" "1"
+	"maxs" "50 128 80"
+	"mins" "-50 -128 -80"
+	"origin" "776 175 -295"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 94.5 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_crates/static_crate_40.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-2611 -1750 -341.618"
+}

@@ -1,0 +1,22 @@
+"AddonInfo"
+{
+addonTitle									"Urik Game Menu + Rayman Mutation Mod"
+vpkname									"urik_game_menu_rmm"
+parsedate 1
+description_template			"Urik Game Menu v$vpkdate$ with Rayman Mutation Mod v57"
+version_template				"$vpkdate$"
+addonDescription							"Urik Game Menu v24.0504 with Rayman Mutation Mod v57" 
+addonAuthor								"Urik"
+addonAuthorSteamID					""
+addonVersion								"24.0504" 
+rayman_mutation_mod_version		"57"
+addonTagline								""
+addonSteamGroupName				""
+addonURL0								"https://steamcommunity.com/sharedfiles/filedetails/?id=198414240"
+addonSteamAppID						550
+addonContent_Script					1
+}
+//credits
+//Urik_Kane - creator
+//Rayman1103 - mutation mod, additional useful features
+//Windows 8 Vector icon pack by icons8 (iconspedia.com)

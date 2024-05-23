@@ -1,0 +1,106 @@
+Population
+{
+	//------------------------------------------------------------------------
+	// Areas are defined in the map or the nav file.  Right now we're using
+	// nav place names.  If no place name is used, we look for 'default'.
+	// Populations are lists of models, with percentages adding up to 100.
+	// Model names should be specified without the .mdl extension, and
+	// without the directory name (this assumes all infected models are in
+	// models/infected).
+
+	
+
+	//------------------------------------------------------------------------
+	hospitalgrounds
+	{
+		common_male_tshirt_cargos	30
+		common_male_tankTop_jeans	25
+		common_female_tankTop_jeans	20
+		common_female_tshirt_skirt	25
+		//common_male_ceda	 	25
+	}
+
+	//------------------------------------------------------------------------
+	c1streets
+	{
+		common_female_tshirt_skirt	20
+		common_female_tankTop_jeans	20
+		common_male_dressShirt_jeans	15
+		common_male_tanktop_jeans	25
+		common_male_tshirt_cargos	20
+		//common_male_ceda	 	5
+	}
+
+	riverintro
+	{
+		common_male_tankTop_jeans	70
+		common_female_tankTop_jeans	30
+		//common_male_ceda	 		75
+	}
+
+	riverarena
+	{
+		common_male_tshirt_cargos	40
+		common_male_tankTop_jeans	30
+		common_female_tankTop_jeans	30
+		//common_male_ceda	 		50
+	}
+	
+	riveratrium
+	{
+		common_male_dressShirt_jeans	30
+		common_male_tshirt_cargos	20
+		common_male_tankTop_jeans	25
+		common_female_tankTop_jeans	25
+		//common_male_ceda	 		15
+	}
+	
+	riverport
+	{
+		common_female_tshirt_skirt	20
+		common_female_tankTop_jeans	20
+		common_male_dressShirt_jeans	20
+		common_male_tanktop_jeans	20
+		common_male_tshirt_cargos	20
+		//common_male_ceda	 		10
+	}
+
+	//------------------------------------------------------------------------
+	hospitalgrounds_l4d1
+	{
+		common_male01		13
+		common_male02		12
+		common_female01		13
+		common_police_male01	13
+		common_military_male01	13
+		common_worker_male01	12
+		common_male_suit 	12
+		common_female01_suit	12
+		//common_male_ceda_l4d1	20
+	}
+
+	//------------------------------------------------------------------------
+	hospital_l4d1
+	{
+		common_male01		10
+		common_male02		10
+		common_patient_male01 	30
+		common_worker_male01	10
+		common_female_nurse01	15
+		common_surgeon_male01	15
+		//common_male_ceda_l4d1	10
+	}
+
+		//------------------------------------------------------------------------
+		hospitalconstruction_l4d1
+		{
+			common_patient_male01 	20
+			common_worker_male01	10
+			common_female_nurse01	20
+			common_surgeon_male01	10
+			common_male01	 	15
+			common_male02		10
+			common_male_roadcrew_l4d1	15
+			//common_male_ceda_l4d1	6
+		}
+}

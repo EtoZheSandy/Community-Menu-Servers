@@ -1,0 +1,39 @@
+"fightorflight"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Fight or Flight"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		director_force_tank 1
+		first_aid_heal_percent 1.0
+		first_aid_kit_use_duration 3
+		sb_close_checkpoint_door_interval 0.5
+		survivor_respawn_with_guns 2
+		survivor_revive_duration 2
+		survivor_revive_health 100
+		sv_infinite_primary_ammo 1
+		sv_gravity 50
+		tank_throw_min_interval 8
+		tongue_range 1000
+		z_charge_interval 1
+		z_jockey_control_max 100.0
+		z_jockey_control_min 100.0
+		z_jockey_control_variance 100.0
+		z_jockey_leap_range 1000
+		z_leap_power 600
+		z_spit_interval 1
+		z_tank_throw_interval 8
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

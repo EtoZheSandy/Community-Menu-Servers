@@ -1,0 +1,24 @@
+"specialdeliveryvs"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Special Delivery Versus"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		car_alarm_chirp_distance 0
+		car_alarm_distance 0
+		hud_deathnotice_threats 1
+		versus_special_respawn_interval 0
+		z_boomer_gibs 1
+	}
+}
+

@@ -1,0 +1,31 @@
+"spitters"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Spitters!"
+	"ShortDescription"	""
+	"Description"	"In this mutation there are only Spitters. They have some modified stats and there can be up to 20 of them at a time. They also spawn at a much more frequent rate. Be careful this mutation can be pretty tough in close quarters."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Karma Jockey"
+
+	convar
+	{
+		"director_no_bosses" 1
+		"z_tank_health" 1
+		"z_witch_health" 1
+		"director_no_specials" 0
+		"z_spitter_limit" 20
+		"spitter_pz_claw_damage" 20
+		"z_spitter_health" 100
+		"z_special_spawn_interval" 8
+		"director_special_respawn_interval" 8
+		"z_respawn_interval" 8
+		"director_special_initial_spawn_delay_max" 2
+		"director_special_initial_spawn_delay_min" 1
+		"z_spawn_mobs_behind_chance" 0
+	}
+}
+

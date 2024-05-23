@@ -1,0 +1,25 @@
+"vipde"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Escort: Dead End"
+	"ShortDescription"	""
+	"Description"	"When you're dead, it's the end."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		sb_all_bot_game 1
+		sv_permawipe 1
+		sv_rescue_disabled 1
+		z_tank_incapacitated_health 0
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+	}
+}
+

@@ -1,0 +1,70 @@
+"realismapocalypse"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Realism Apocalypse"
+	"ShortDescription"	""
+	"Description"	"Realism rules, but that's not all. You only have 1 extra clip of ammo, and ammo piles have been removed."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"dab93"
+
+	convar
+	{
+		"sv_tags" Realism Apocalypse
+		"z_mega_mob_size" 10
+		"z_mob_spawn_max_size" 15
+		"director_configurable_weapon_spawn_density" : 1.75
+		"sv_disable_glow_survivors" 1
+		"sv_disable_glow_faritems" 1
+		"sv_rescue_disabled" 1
+		"z_non_head_damage_factor_multiplier" 0.07
+		"z_head_damage_causes_wounds" 1
+		"z_use_next_difficulty_damage_factor" 1
+		"z_witch_always_kills" 1
+		"spawn_behind_survivors_distance" 500
+		"fog_override" 1
+		"fog_enable" 1
+		"fog_start" 100
+		"fog_end" 1500
+		"fog_startskybox" 1500
+		"fog_color" 1 1 1
+		"fog_colorskybox" 1 1 1
+		"fog_endskybox" 2000
+		"fog_enableskybox" 1
+		"music_manager" 0
+		"r_flashlightbrightness" 5
+		"pain_pills_decay_rate" 0.21
+		"z_spawn_mobs_behind_chance" 5
+		"z_mob_population_density" 0.05
+		"director_pain_pill_density" 0.15
+		"director_first_aid_kit_density" 0.15
+		"ammo_shotgun_max" 10
+		"ammo_autoshotgun_max" 10
+		"ammo_huntingrifle_max" 15
+		"ammo_sniperrifle_max" 30
+		"ammo_smg_max" 50
+		"ammo_grenadelauncher_max" 5
+		"ammo_assaultrifle_max" 60
+		"ammo_m60_max" 150
+		"z_max_blood_scale" 50
+		"survivor_friendly_fire_factor_expert" 0.35 
+		"survivor_friendly_fire_factor_hard" 0.3
+		"survivor_friendly_fire_factor_normal" 0.2
+		"survivor_friendly_fire_factor_easy" 0
+		"survivor_burn_factor_expert" 0.8
+		"survivor_burn_factor_hard" 0.65
+		"survivor_burn_factor_normal" 0.45
+		"survivor_burn_factor_easy" 0.25
+		"z_exploding_speed" 600
+		"z_fallen_max_count" 500
+		"survivor_ledge_grab_health" 100
+		"z_common_health_easy" 100
+		"z_common_health_normal" 150
+		"z_common_health_hard" 200
+		"z_common_health_expert" 250
+	}
+}
+

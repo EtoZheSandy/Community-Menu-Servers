@@ -1,0 +1,28 @@
+"cmutation38"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Limited Resources"
+	"ShortDescription"	"Limited ammo, few guns, so no chance to Survive..."
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"dani1341"
+
+	convar
+	{
+		"ammo_shotgun_max" 10
+		"ammo_autoshotgun_max" 10
+		"ammo_huntingrifle_max" 15
+		"ammo_sniperrifle_max" 30
+		"ammo_smg_max" 50
+		"ammo_grenadelauncher_max" 5
+		"survivor_revive_duration" 1
+		"survivor_revive_health" 100
+		"ammo_assaultrifle_max" 60
+		"ammo_m60_max" 400
+	}
+}
+

@@ -1,0 +1,29 @@
+"horror42outbreak"
+{
+	"base"		"coop"
+	"maxplayers"    "2"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Horror For Two Outbreak"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SuperNerd000"
+
+	convar
+	{
+		ammo_assaultrifle_max 50
+		ammo_autoshotgun_max 20
+		ammo_grenadelauncher_max 5
+		ammo_m60_max 100
+		ammo_shotgun_max 16
+		ammo_smg_max 50
+		ammo_sniperrifle_max 15
+		//survivor_limit 2
+		director_no_survivor_bots 1
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+	}
+}
+

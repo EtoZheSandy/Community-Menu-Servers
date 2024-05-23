@@ -1,0 +1,72 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 0 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "-1853.8 -9398.55 609.654"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 308 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "-402.584 -5986.74 95.107"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 153 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "3579.08 -5554.77 119.25"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 299.5 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "3605 -2063 111"
+}
+"entity"
+{
+	"classname" "info_landmark"
+	"targetname" "pvp_saferoom"
+	"origin" "3703.67 -1686.93 240.25"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_exteriors/wood_stairs_120.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "400 -6075 222"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_exteriors/wood_stairs_120.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "400 -5920 110"
+}

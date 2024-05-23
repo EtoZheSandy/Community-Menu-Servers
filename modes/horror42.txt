@@ -1,0 +1,25 @@
+"horror42"
+{
+	"base"		"coop"
+	"maxplayers"    "2"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Horror For Two"
+	"ShortDescription"	""
+	"Description"	"Horror for me, horror for you, let's try and survive through Horror For Two! In this mutation, you only have 2 survivors. Along with this, almost ALL guns are removed. In fact, the only three guns you can find are the pump/chrome shotgun, the magnum, and the grenade launcher. Dual pistols, too, if you pick up the pistol your teammate drops grabbing a magnum. Oh, also, the shotguns and grenade launcher have highly lowered reserve ammos. All throwables and health items still appear, however. Now, to balance this somewhat, there is a lowered amount of Common Infected, and there can only be 1 Special Infected spawned at a time. Also, every time someone spawns they are given a pump shotgun. Don't let the decrease in infected get you down, though, the tension in this mutation is guaranteed to snap your neck!"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SuperNerd000"
+
+	convar
+	{
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		ammo_shotgun_max 30
+		ammo_grenadelauncher_max 5
+		//survivor_limit 2
+		director_no_survivor_bots 1
+		sv_pausable 1
+	}
+}
+

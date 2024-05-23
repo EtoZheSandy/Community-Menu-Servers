@@ -1,0 +1,22 @@
+"specialdeliverysv"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Special Delivery Survival"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		hud_deathnotice_threats 1
+		survival_special_spawn_interval 10
+		survival_special_stage_interval 10
+		z_boomer_gibs 1
+	}
+}
+

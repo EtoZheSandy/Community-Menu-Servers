@@ -1,0 +1,21 @@
+"crowdcontrol"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Crowd Control"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	""
+
+	convar
+	{
+		"survivor_max_incapacitated_count" 0
+		"ammo_autoshotgun_max" 99999
+		"ammo_shotgun_max" 99999
+	}
+}
+

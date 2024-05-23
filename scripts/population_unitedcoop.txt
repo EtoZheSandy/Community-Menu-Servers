@@ -1,0 +1,28 @@
+Population
+{
+	//------------------------------------------------------------------------
+	// Areas are defined in the map or the nav file.  Right now we're using
+	// nav place names.  If no place name is used, we look for 'default'.
+	// Populations are lists of models, with percentages adding up to 100.
+	// Model names should be specified without the .mdl extension, and
+	// without the directory name (this assumes all infected models are in
+	// models/infected).
+
+	
+
+//------------------------------------------------------------------------
+//------------------------------------------------------------------------
+//		CAMPAIGN 6
+//------------------------------------------------------------------------
+//------------------------------------------------------------------------
+
+	riverbank
+	{
+		common_female_tshirt_skirt		35
+		common_male_dressShirt_jeans	45
+		common_male_fallen_survivor		20	// one at a time max, this makes it more likely to happen quick
+		
+		survivor_biker	0
+		survivor_teenangst	0
+	}
+}

@@ -1,0 +1,25 @@
+"fullycharged"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Fully Charged"
+	"ShortDescription"	""
+	"Description"	"This mutation features only Chargers! Their health is a little lower, their spawn rate is faster, and there can be up to 12 of them after you! Either learn to level Chargers or they'll level you."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Karma Jockey"
+
+	convar
+	{
+		"z_charger_limit" 12
+		"z_charger_health" 125 // KJ default 300
+		"z_special_spawn_interval" 0
+		"director_special_respawn_interval" 0
+		"z_respawn_interval" 0
+		"director_special_initial_spawn_delay_max" 0
+		"director_special_initial_spawn_delay_min" 0
+	}
+}
+

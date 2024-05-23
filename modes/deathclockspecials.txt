@@ -1,0 +1,58 @@
+"deathclockspecials"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Death Clock: Special Edition"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		adrenaline_duration 0.0f
+		adrenaline_health_buffer 50
+		adrenaline_revive_speedup 0.0
+		adrenaline_run_speed 210
+		boomer_exposed_time_tolerance 99
+		hud_deathnotice_threats 1
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_incap_decay_rate 10
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_max_incapacitated_count 1 //0
+		//survivor_revive_duration 10
+		survivor_revive_health 100
+		sv_infinite_primary_ammo 1
+		z_charge_max_damage 10
+		z_charger_health 300
+		z_charger_pound_dmg 5
+		z_exploding_health 25
+		z_exploding_shove_max 1
+		z_exploding_shove_min 1
+		z_exploding_speed 420
+		z_gas_health 125
+		z_hunter_health 125
+		z_jockey_control_max 100.0
+		z_jockey_control_min 100.0
+		z_jockey_control_variance 100.0
+		z_jockey_health 160
+		z_jockey_speed 315
+		z_spit_interval 5
+		z_spitter_health 50
+		z_survivor_respawn_health 100
+		z_tank_incapacitated_health 0
+		z_witch_health 690
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

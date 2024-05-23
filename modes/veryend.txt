@@ -1,0 +1,28 @@
+"veryend"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Your Eternal Slumber"
+	"ShortDescription"	""
+	"Description"	"When you're dead, it's the end."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		allow_all_bot_survivor_team 1
+		//director_no_death_check 1
+		//first_aid_kit_use_duration 3
+		sb_all_bot_game 1
+		survivor_incap_decay_rate 10
+		survivor_respawn_with_guns -1
+		survivor_revive_health 100
+		sv_permawipe 1
+		sv_rescue_disabled 1
+		z_tank_health 2500
+	}
+}
+

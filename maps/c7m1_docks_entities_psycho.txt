@@ -1,0 +1,49 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 317.5 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "12707 2996 81"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 180 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "9390.94 1256.1 136"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 336 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "2498 -183 141"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 310.5 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "2157.61 2434.65 176"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_vehicles/train_ladder.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "8784 929 21.4885"
+}

@@ -1,0 +1,42 @@
+"shootout"
+{
+	"base"		"pvp"
+	"maxplayers"    "4"
+	"singlechapter"		"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Gun of the Gods (SvS)"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		ai_talk_idle_enabled 0
+		defibrillator_return_to_life_time 0.0
+		director_no_death_check 1
+		hud_targetid_name_height 999999
+		pipe_bomb_initial_beep_interval 0.4
+		pipe_bomb_timer_duration 2
+		sb_friendlyfire 1
+		sb_open_fire 1
+		survivor_autolook_voc_delay 999999
+		survivor_burn_factor_easy 0.5
+		survivor_burn_factor_expert 0.5
+		survivor_burn_factor_hard 0.5
+		survivor_burn_factor_normal 0.5
+		survivor_friendly_fire_factor_easy 0.4
+		survivor_friendly_fire_factor_normal 0.4
+		survivor_friendly_fire_factor_hard 0.4
+		survivor_friendly_fire_factor_expert 0.4
+		sv_infinite_ammo 1
+		sv_permawipe 0
+		vomitjar_duration_survivor 20
+		vomitjar_radius_survivors 350 //110
+		z_friendly_fire_forgiveness 0
+		z_survivor_respawn_health 100
+	}
+}
+

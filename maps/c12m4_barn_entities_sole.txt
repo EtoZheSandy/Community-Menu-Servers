@@ -1,0 +1,49 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 43 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "7594.82 -11195.9 442.127"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 335 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "11166.6 -8271.54 -78.2791"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 261 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "10945.6 -5705.08 -64"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 60 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "9834.89 -4920.28 -42.1629"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "4.40253 76.6971 17.9863"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_swamp/plank001b_192.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "10327 -8470 146"
+}

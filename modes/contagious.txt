@@ -1,0 +1,21 @@
+"contagious"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Contagious"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		z_tank_incapacitated_health 0
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

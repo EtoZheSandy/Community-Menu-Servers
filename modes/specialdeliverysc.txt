@@ -1,0 +1,21 @@
+"specialdeliverysc"
+{
+	"base"		"scavenge"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Special Delivery Scavenge"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		hud_deathnotice_threats 1
+		z_boomer_gibs 1
+	}
+}
+

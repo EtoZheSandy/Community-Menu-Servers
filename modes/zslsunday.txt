@@ -1,0 +1,55 @@
+"zslsunday"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Sunday Night Suicide Sprint!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|ANG3Lskye"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		sv_infected_ceda_vomitjar_probability 0
+		boomer_leaker_chance 100
+		boomer_exposed_time_tolerance 99.0
+		z_exploding_speed 999
+		z_exploding_inner_radius 140
+		z_exploding_outer_radius 230
+		z_tank_health 250
+		z_witch_health 150
+		z_tank_throw_interval 800
+		sb_max_team_melee_weapons 4
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		pain_pills_health_value 100
+		survivor_limp_health 2
+		//survivor_limp_walk_speed 210
+		survivor_max_incapacitated_count 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		hud_deathnotice_threats 1
+		tank_burn_duration 60
+		tank_burn_duration_expert 60
+		tank_burn_duration_hard 60
+		sb_allow_leading 1
+		sb_separation_danger_max_range 999999
+		sb_separation_danger_min_range 999999
+		sb_separation_range 999999
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+	}
+}
+

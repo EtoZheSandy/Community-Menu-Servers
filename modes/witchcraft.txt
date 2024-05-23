@@ -1,0 +1,62 @@
+"witchcraft"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Witchcraft"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		ammo_assaultrifle_max -2
+		ammo_autoshotgun_max -2
+		ammo_huntingrifle_max -2
+		ammo_shotgun_max -2
+		ammo_smg_max -2
+		ammo_sniperrifle_max -2
+		ammo_turret_witch_damage 8
+		first_aid_kit_use_duration 3
+		hud_deathnotice_threats 1
+		survivor_allow_crawling 1
+		//survivor_crawl_speed 75
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_revive_duration 3
+		survivor_revive_health 50
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		witch_rage_ramp_duration 0.0
+		z_witch_anger_rate 100
+		z_witch_berserk_range 999999
+		z_witch_burn_time 3
+		z_witch_discard_range 999999
+		z_witch_flashlight_range 999999
+		z_witch_health 250
+		z_witch_max_retreat_range 999999
+		z_witch_max_threat_time 0
+		z_witch_max_retreat_range 999999
+		z_witch_min_threat_time 0
+		z_witch_personal_space 999999
+		z_witch_retreat_exit_hidden_duration 999999
+		z_witch_retreat_exit_range 999999
+		z_witch_retreat_min_duration 999999
+		z_witch_speed 250
+		z_witch_threat_hostile_range 999999
+		z_witch_threat_normal_range 999999
+		z_witch_wander_hear_radius 999999
+		z_witch_wander_personal_space 999999
+		z_witch_wander_personal_time 0
+	}
+}
+

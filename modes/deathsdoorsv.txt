@@ -1,0 +1,19 @@
+"deathsdoorsv"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Death's Door Survival"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		survivor_max_incapacitated_count 0
+	}
+}
+

@@ -1,0 +1,39 @@
+"bigdaddyscav"
+{
+	"base"		"scavenge"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Big Daddy Scavenge"
+	"ShortDescription"	""
+	"Description"	"Only one player is randomly chosen to be the 'Big Daddy', the Super Charger who can't run or melee worth a lick, but if he gets a hold of you, you're as good as dead unless your team is willing to sacrifice themselves to save you. Teamed up with the Big Daddy are 3 little 'Spitsters'. p*ssed off females who lost the potency of their venom and neglected their overall health. To counter, they grew a set of huge claws and insane speed."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Tygerwoody"
+
+	convar
+	{
+		"z_versus_boomer_limit" 0
+		"z_versus_hunter_limit" 0
+		"z_versus_smoker_limit" 0 
+		"z_versus_spitter_limit" 3
+		"z_versus_charger_limit" 1
+		"z_versus_jockey_limit" 0
+		"z_spitter_health" 50
+		"z_spitter_speed" 475
+		"z_spit_interval" 30
+		"spitter_pz_claw_dmg" 10
+		"spit_scaling_min_scale" 0.10
+		"z_charger_pound_dmg" 8
+		"z_charge_start_speed" 50
+		"z_charger_health" 10000
+		"z_charge_max_damage" 0.5
+		"z_charger_probe_attack" 1
+		"z_charger_probe_alone" 1
+		"z_charge_max_force" 1700
+		"z_charge_min_force" 1300
+		"survivor_revive_health" 25
+	}
+}
+

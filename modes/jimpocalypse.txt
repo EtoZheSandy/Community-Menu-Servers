@@ -1,0 +1,30 @@
+"jimpocalypse"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Jimpocalypse"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sv_infinite_ammo 1
+		z_mob_spawn_max_size 60
+		z_mob_spawn_min_size 50
+		z_mob_spawn_max_interval_easy 40
+		z_mob_spawn_max_interval_expert 40
+		z_mob_spawn_max_interval_hard 40
+		z_mob_spawn_max_interval_normal 40
+		z_mob_spawn_min_interval_easy 40
+		z_mob_spawn_min_interval_expert 40
+		z_mob_spawn_min_interval_hard 40
+		z_mob_spawn_min_interval_normal 40
+		z_speed 350
+	}
+}
+

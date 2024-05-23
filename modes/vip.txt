@@ -1,0 +1,20 @@
+"vip"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Escort"
+	"ShortDescription"	"Protect the VIP at all cost!"
+	"Description"	"You must escort the VIP to the saferoom."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+	}
+}
+

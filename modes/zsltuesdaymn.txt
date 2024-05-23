@@ -1,0 +1,49 @@
+"zsltuesdaymn"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Tuesday Morning Spitter Rage!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|ANG3Lskye"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		z_spitter_health 10
+		z_spit_interval 1
+		z_tank_health 1500
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		//survivor_burn_factor_easy 0
+		//survivor_burn_factor_expert 0
+		//survivor_burn_factor_hard 0
+		//survivor_burn_factor_normal 0
+		survivor_limp_health 2
+		//survivor_limp_walk_speed 210
+		sv_infinite_ammo 1
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		sb_max_team_melee_weapons 4
+		survivor_max_incapacitated_count 0
+		z_gun_swing_coop_max_penalty 99999999
+		z_gun_swing_coop_min_penalty 99999999
+		sb_allow_leading 1
+		sb_separation_danger_max_range 999999
+		sb_separation_danger_min_range 999999
+		sb_separation_range 999999
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+	}
+}
+

@@ -1,0 +1,532 @@
+Population
+{
+	//------------------------------------------------------------------------
+	// Areas are defined in the map or the nav file.  Right now we're using
+	// nav place names.  If no place name is used, we look for 'default'.
+	// Populations are lists of models, with percentages adding up to 100.
+	// Model names should be specified without the .mdl extension, and
+	// without the directory name (this assumes all infected models are in
+	// models/infected).
+
+	
+
+	//------------------------------------------------------------------------
+	default
+	{
+		common_male_clown	100
+	}
+
+	defaultcemetery
+	{
+		common_male_clown	100
+	}
+
+	defaultmilltown
+	{
+		common_male_clown	100
+	}
+
+	defaultmilltown_mob
+	{
+		common_male_clown	100
+	}
+
+
+	defaultsugarmill
+	{
+		common_male_clown	100
+	}
+
+	defaultsugarmill_mob
+	{
+		common_male_clown	100
+	}
+
+	defaultmilltown_rain
+	{
+		common_male_clown	100
+	}
+
+	defaultmilltown_rain_mob
+	{
+		common_male_clown	100
+	}
+
+
+	defaultsugarmill_rain
+	{
+		common_male_clown	100
+	}
+
+	defaultsugarmill_rain_mob
+	{
+		common_male_clown	100
+	}
+	
+	// C3 
+	//------------------------------------------------------------------------
+	defaultswamp
+	{
+		common_male_clown	100
+	}
+		deepswamp
+		{
+			common_male_clown	100
+		}
+		deepswamp_parachutist
+		{
+			common_male_clown	100
+		}
+	
+
+	//Urban Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaulturban
+	{
+		common_male_clown	100
+	}
+
+		//------------------------------------------------------------------------
+		police
+		{
+			common_male_clown	100
+		}
+
+		//------------------------------------------------------------------------
+		maintenance
+		{
+			common_male_clown	100
+		}
+
+		//------------------------------------------------------------------------
+		hospitalgrounds
+		{
+			common_male_clown	100
+		}
+
+
+
+	//------------------------------------------------------------------------
+	hospital
+	{
+		common_male_clown	100
+	}
+
+		//------------------------------------------------------------------------
+		hospitalconstruction
+		{
+			common_male_clown	100
+		}
+
+
+
+	//------------------------------------------------------------------------
+	airport
+	{
+		common_male_clown	100
+	}
+	
+		//------------------------------------------------------------------------
+		airportfinale
+		{
+			common_male_clown	100
+		}
+	
+
+
+
+	//Rural Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaultrural
+	{
+		common_male_clown	100
+	}
+
+
+	//Adding CEDA for Campaign 5
+	//------------------------------------------------------------------------
+	crescentcity
+	{
+		common_male_clown	100
+	}
+		busstation
+		{
+			common_male_clown	100
+		}
+
+
+	//Minimizing the types for memory
+	//------------------------------------------------------------------------
+	frenchquarter
+	{
+		common_male_clown	100
+	}
+		ceda
+		{
+			common_male_clown	100
+		}
+
+	//Adding CEDA guys to Campaign 1
+	//------------------------------------------------------------------------
+	c1streets
+	{
+		common_male_clown	100
+	}
+
+
+	//Adding Clown guys to Campaign 2
+	//------------------------------------------------------------------------
+	whisperingoaks
+	{
+		common_male_clown	100
+	}
+
+	//Minimizing the types for memory in c3m1
+	//------------------------------------------------------------------------
+	gatorpark
+	{
+		common_male_clown	100
+	}
+
+
+
+//------------------------------------------------------------------------
+//------------------------------------------------------------------------
+//		CAMPAIGN 6
+//------------------------------------------------------------------------
+//------------------------------------------------------------------------
+
+	riverbank
+	{
+		common_male_clown	100
+	}
+		riverbank_police
+		{
+			common_male_clown	100
+		}
+
+		riverbank_wedding
+		{
+			common_male_clown	100
+		}
+
+
+	redlight
+	{
+		common_male_clown	100
+		
+	}
+
+	redlight_bikers
+	{
+		common_male_clown	100
+	}
+
+	port
+	{
+		common_male_clown	100
+		
+		survivor_teenangst	0
+		survivor_biker	0
+		survivor_manager 0
+	}
+
+
+
+	//------------------------------------------------------------------------
+	// River Populations and sub-populations
+	//------------------------------------------------------------------------
+	river
+	{
+		common_male_clown	100
+	}
+	
+	riverintro
+	{
+		common_male_clown	100
+	}
+
+	riverarena
+	{
+		common_male_clown	100
+	}
+	
+	riveratrium
+	{
+		common_male_clown	100
+	}
+	
+	riverfreighter
+	{
+		common_male_clown	100
+	}
+
+	riverport
+	{
+		common_male_clown	100
+	}
+	
+	//------------------------------------------------------------------------
+	hospital_test
+	{
+		common_male_clown	100
+	}
+
+	male_ceda
+	{
+		common_male_clown	100
+	}
+
+	male_clown
+	{
+		common_male_clown	100
+	}
+
+	male_mud
+	{
+		common_male_clown	100
+	}
+
+	male_roadcrew
+	{
+		common_male_clown	100
+	}
+
+	male_roadcrew_rain
+	{
+		common_male_clown	100
+	}
+
+	male_riot
+	{
+		common_male_clown	100
+	}
+
+	male_fallen_survivor
+	{
+		common_male_clown	100
+	}
+
+	male_jimmy
+	{
+		common_male_clown	100
+	}
+
+	male_ceda_l4d1
+	{
+		common_male_clown	100
+	}
+
+	male_mud_l4d1
+	{
+		common_male_clown	100
+	}
+
+	male_roadcrew_l4d1
+	{
+		common_male_clown	100
+	}
+
+	male_riot_l4d1
+	{
+		common_male_clown	100
+	}
+
+	male_fallen_survivor_l4d1
+	{
+		common_male_clown	100
+	}
+
+	uncommons
+	{
+		common_male_clown	100
+	}
+
+	uncommons_l4d1
+	{
+		common_male_clown	100
+	}
+	
+	//------------------------------------------------------------------------
+	// L4D1 Populations
+	//------------------------------------------------------------------------
+	default_l4d1
+	{
+		common_male_clown	100
+	}
+
+	defaultlots_l4d1
+	{
+		common_male_clown	100
+	}
+
+	//Urban Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaulturban_l4d1
+	{
+		common_male_clown	100
+	}
+
+		//------------------------------------------------------------------------
+		police_l4d1
+		{
+			common_male_clown	100
+		}
+
+		riotpolice_l4d1
+		{
+			common_male_clown	100
+		}
+
+		constructionzone_l4d1
+		{
+			common_male_clown	100
+		}
+
+		military_l4d1
+		{
+			common_male_clown	100
+		}
+
+		//------------------------------------------------------------------------
+		maintenance_l4d1
+		{
+			common_male_clown	100
+		}
+
+		maintenancesewer_l4d1
+		{
+			common_male_clown	100
+		}
+
+		maintenancestreet_l4d1
+		{
+			common_male_clown	100
+		}
+
+		//------------------------------------------------------------------------
+		hospitalgrounds_l4d1
+		{
+			common_male_clown	100
+		}
+
+
+
+	//------------------------------------------------------------------------
+	hospital_l4d1
+	{
+		common_male_clown	100
+	}
+
+		//------------------------------------------------------------------------
+		hospitalconstruction_l4d1
+		{
+			common_male_clown	100
+		}
+
+		//------------------------------------------------------------------------
+		hospitalrooftop_l4d1
+		{
+			common_male_clown	100
+		}
+
+
+
+	//------------------------------------------------------------------------
+	airport_l4d1
+	{
+		common_male_clown	100
+	}
+	
+		//------------------------------------------------------------------------
+		airportfinale_l4d1
+		{
+			common_male_clown	100
+		}
+	
+
+
+
+	//Rural Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaultrural_l4d1
+	{
+		common_male_clown	100
+	}
+
+		ruralsewer_l4d1
+		{
+			common_male_clown	100
+		}
+
+		ruralstreet_l4d1
+		{
+			common_male_clown	100
+		}
+
+	//------------------------------------------------------------------------
+	//River Populations and sub-populations
+	//------------------------------------------------------------------------
+	river_l4d1
+	{
+		common_male_clown	100
+	}
+
+	riverintro_l4d1
+	{
+		common_male_clown	100
+	}
+
+	riverarena_l4d1
+	{
+		common_male_clown	100
+	}
+	
+	riveratrium_l4d1
+	{
+		common_male_clown	100
+	}
+	
+	riverfreighter_l4d1
+	{
+		common_male_clown	100
+	}
+
+	riverport_l4d1
+	{
+		common_male_clown	100
+	}
+
+	//------------------------------------------------------------------------
+	//Lighthouse Populations and sub-populations
+	//------------------------------------------------------------------------
+	junkyardrural_l4d1
+	{
+		common_male_clown	100
+	}
+
+	junkyard_l4d1
+	{
+		common_male_clown	100
+	}
+
+	junkyardroad_l4d1
+	{
+		common_male_clown	100
+	}
+
+	estuary_l4d1
+	{
+		common_male_clown	100
+	}
+
+	lighthouserural_l4d1
+	{
+		common_male_clown	100
+	}
+
+	lighthouse_l4d1
+	{
+		common_male_clown	100
+	}
+}

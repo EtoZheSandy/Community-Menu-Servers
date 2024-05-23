@@ -1,0 +1,51 @@
+"vipss"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"VIP Escort: Special Slayer"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		//claw_range 0
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_max_incapacitated_count 0
+		survivor_respawn_with_guns 2
+		survivor_revive_health 100
+		sv_infinite_primary_ammo 1
+		z_charge_interval 0
+		z_charge_max_damage 15
+		z_charger_health 1
+		z_charger_pound_dmg 20
+		z_exploding_health 1
+		z_gas_health 1
+		z_hunter_health 1
+		z_jockey_health 1
+		z_pounce_damage 10
+		z_spitter_health 1
+		z_tank_health 3000
+		z_tank_incapacitated_health 0
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		precache_all_survivors 1
+		sb_l4d1_survivor_behavior 0
+		tongue_choke_damage_amount 12
+		z_jockey_ride_damage 6
+		z_charger_pound_dmg 20
+		z_pounce_damage 7
+	}
+}
+

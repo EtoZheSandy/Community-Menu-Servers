@@ -1,0 +1,26 @@
+"dbt"
+{
+	"base"		"versus"
+	"maxplayers"    "8"
+	"playercontrolledzombies"	"1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Death's Bleeding Tank"
+	"ShortDescription"	""
+	"Description"	"A combination of Death's Door, Bleed Out and Taaannnk!!"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Krandel"
+
+	convar
+	{
+		survivor_max_incapacitated_count 0
+		z_tank_health 2000
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		z_spawn_safety_range 600
+		z_ghost_travel_distance 2000
+		z_frustration 0
+	}
+}
+

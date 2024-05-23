@@ -1,0 +1,53 @@
+"zslsundaymn"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Sunday Morning Smoker Roast!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|ANG3Lskye"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		sv_infinite_ammo 1
+		director_no_bosses 1
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		//survivor_burn_factor_easy 0
+		//survivor_burn_factor_expert 0
+		//survivor_burn_factor_hard 0
+		//survivor_burn_factor_normal 0
+		survivor_limp_health 2
+		//survivor_limp_walk_speed 210
+		survivor_revive_health 100
+		survivor_respawn_with_guns -1
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		z_tank_throw_interval 800
+		z_gas_health 100
+		tongue_hit_delay 60
+		tank_burn_duration 90
+		tank_burn_duration_expert 90
+		tank_burn_duration_hard 90
+		z_tank_health 2000
+		sb_allow_leading 1
+		sb_separation_danger_max_range 999999
+		sb_separation_danger_min_range 999999
+		sb_separation_range 999999
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+		claw_range 50
+	}
+}
+

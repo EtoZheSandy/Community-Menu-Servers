@@ -1,0 +1,23 @@
+"specialdeliveryhc"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Hardcore Special Delivery"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		car_alarm_chirp_distance 0
+		car_alarm_distance 0
+		cl_drawhud 0
+		hidehud 64
+		hud_deathnotice_threats 1
+	}
+}
+

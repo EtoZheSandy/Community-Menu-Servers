@@ -1,0 +1,49 @@
+"gungamei"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Left 4 Gun Game: Infestation"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		claw_range 36
+		director_special_initial_spawn_delay_max 0
+		director_special_initial_spawn_delay_min 0
+		director_special_respawn_interval 0
+		first_aid_kit_use_duration 3
+		pipe_bomb_initial_beep_interval 0.2
+		pipe_bomb_timer_duration 1
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		//survivor_revive_duration 4
+		survivor_revive_health 25
+		sv_infinite_ammo 1
+		z_allow_ai_to_use_abilities 0
+		z_boomer_limit 0
+		z_charger_limit 0
+		z_hunter_health 110
+		z_hunter_limit 15
+		z_hunter_speed 30
+		z_jockey_limit 0
+		z_smoker_limit 0
+		z_respawn_interval 0
+		z_special_spawn_interval 0
+		z_spitter_limit 0
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

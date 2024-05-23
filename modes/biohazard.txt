@@ -1,0 +1,20 @@
+"biohazard"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Biohazard"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		z_mob_spawn_max_size 40
+		z_mob_spawn_min_size 30
+	}
+}
+

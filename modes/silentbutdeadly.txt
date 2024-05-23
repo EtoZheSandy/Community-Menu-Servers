@@ -1,0 +1,21 @@
+"silentbutdeadly"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Silent But Deadly"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Karma Jockey"
+
+	convar
+	{
+		"music_manager" 0
+		"snd_music_volume" 0
+		"z_mute_infected" 1
+	}
+}
+

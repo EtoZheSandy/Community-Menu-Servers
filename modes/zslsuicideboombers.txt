@@ -1,0 +1,56 @@
+"zslsuicideboombers"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Competitive Suicide Boombers!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|ANG3Lskye"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		allow_all_bot_survivor_team 1
+		sb_all_bot_game 1
+		adrenaline_backpack_speedup 1.0
+		adrenaline_duration 0.0
+		adrenaline_health_buffer 0
+		adrenaline_revive_speedup 1.0
+		adrenaline_run_speed 210
+		boomer_leaker_chance 100
+		boomer_exposed_time_tolerance 99.0
+		hud_deathnotice_threats 1
+		survivor_max_incapacitated_count 0
+		z_exploding_speed 999
+		z_exploding_inner_radius 140
+		z_exploding_outer_radius 230
+		z_tank_health 200
+		z_tank_incapacitated_health 0
+		tank_burn_duration 30
+		tank_burn_duration_expert 30
+		tank_burn_duration_hard 30
+		tank_throw_allow_range 999999
+		sb_max_team_melee_weapons 4
+		survival_round_restart_delay 10
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_ledge_grab_health 15
+		survivor_limp_health 2
+		survival_tank_stage_interval 999999
+		survival_tank_stage_interval_decay 0
+		survival_special_spawn_interval 5
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+	}
+}
+

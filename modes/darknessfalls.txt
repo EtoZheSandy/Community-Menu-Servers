@@ -1,0 +1,40 @@
+"darknessfalls"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Darkness Falls"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"==Maverick=="
+
+	convar
+	{
+		"cl_glow_brightness" 0
+		"director_scavenge_item_override" 1
+		"director_pipe_bomb_density" 10
+		"director_molotov_density" 10
+		"first_aid_heal_percent" 100
+		"first_aid_kit_use_duration" 5
+		"fog_override" 1
+		"fog_start" 1
+		"fog_end" 1
+		"fog_startskybox" 1
+		"fog_endskybox" 1
+		"fog_maxdensity" .98
+		"fog_maxdensityskybox" .998
+		fog_color 0 0 0
+		fog_colorskybox 1 1 1
+		fog_2dskyboxfogfactor .98
+		"z_witch_always_kills" 1
+		"r_flashlightfov" 40
+		"r_flashlightfar" 2000
+		"r_flashlightbrightness" 8
+		"r_farz" 10000
+		"r_skyboxfogfactor" 1
+	}
+}
+

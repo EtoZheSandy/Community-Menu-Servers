@@ -1,0 +1,47 @@
+"fallenhope"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Fallen Hope"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		adrenaline_duration 20.0f
+		adrenaline_health_buffer 100
+		director_no_bosses 1
+		sb_max_team_melee_weapons 4
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_max_incapacitated_count 0
+		sv_infinite_primary_ammo 1
+		sv_fallen_survivor_health_multiplier 10.0
+		z_fallen_kill_suppress_time 1
+		z_fallen_max_count 9999
+		z_mob_spawn_max_size 40
+		z_mob_spawn_min_size 40
+		z_mob_spawn_max_interval_easy 2
+		z_mob_spawn_max_interval_expert 2
+		z_mob_spawn_max_interval_hard 2
+		z_mob_spawn_max_interval_normal 2
+		z_mob_spawn_min_interval_easy 2
+		z_mob_spawn_min_interval_expert 2
+		z_mob_spawn_min_interval_hard 2
+		z_mob_spawn_min_interval_normal 2
+		z_speed 150
+		z_spitter_health 99999
+		z_spitter_speed 160
+		z_tank_health 500
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

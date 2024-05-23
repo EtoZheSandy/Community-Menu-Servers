@@ -1,0 +1,25 @@
+"uncommonambush"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Uncommon Ambush"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		survivor_revive_duration 3
+		survivor_revive_health 100
+		sv_infected_ceda_vomitjar_probability 0.05
+		z_forcezombiemodel 1
+		z_tank_incapacitated_health 0
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

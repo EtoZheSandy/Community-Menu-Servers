@@ -1,0 +1,48 @@
+"swarm"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Swarm"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		director_panic_forever 1
+		first_aid_kit_use_duration 2
+		z_common_limit 30
+		z_gun_swing_coop_max_penalty 99999999
+		z_gun_swing_coop_min_penalty 99999999
+		z_health 25
+		z_mob_spawn_max_size 30
+		z_mob_spawn_min_size 30
+		z_mob_spawn_max_interval_easy 2
+		z_mob_spawn_max_interval_expert 2
+		z_mob_spawn_max_interval_hard 2
+		z_mob_spawn_max_interval_normal 2
+		z_mob_spawn_min_interval_easy 1
+		z_mob_spawn_min_interval_expert 1
+		z_mob_spawn_min_interval_hard 1
+		z_mob_spawn_min_interval_normal 1
+		z_respawn_interval 0
+		z_speed 187 //200
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		//survivor_max_incapacitated_count 3
+		survivor_revive_duration 0.1
+		survivor_revive_health 50
+		sv_infinite_primary_ammo 1
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+	}
+}
+

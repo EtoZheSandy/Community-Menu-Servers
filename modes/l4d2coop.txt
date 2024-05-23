@@ -1,0 +1,21 @@
+"l4d2coop"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"L4D2 Co-op"
+	//"ShortDescription"	""
+	"Description"	"Play Co-op new school!"
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		z_female_boomer_spawn_chance 0
+		z_gun_swing_coop_max_penalty 999999999
+		z_gun_swing_coop_min_penalty 999999999
+	}
+}
+

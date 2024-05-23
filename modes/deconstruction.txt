@@ -1,0 +1,28 @@
+"deconstruction"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Deconstruction"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		z_mob_spawn_max_size 45
+		z_mob_spawn_min_size 35
+		z_mob_spawn_max_interval_easy 220
+		z_mob_spawn_max_interval_expert 160
+		z_mob_spawn_max_interval_hard 160
+		z_mob_spawn_max_interval_normal 160
+		z_mob_spawn_min_interval_easy 100
+		z_mob_spawn_min_interval_expert 70
+		z_mob_spawn_min_interval_hard 70
+		z_mob_spawn_min_interval_normal 70
+	}
+}
+

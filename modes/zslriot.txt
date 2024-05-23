@@ -1,0 +1,60 @@
+"zslriot"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Competitive Riot!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|ANG3Lskye"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		allow_all_bot_survivor_team 1
+		sb_all_bot_game 1
+		adrenaline_backpack_speedup 1.0
+		adrenaline_duration 0.0
+		adrenaline_health_buffer 0
+		adrenaline_revive_speedup 1.0
+		adrenaline_run_speed 210
+		sv_infinite_primary_ammo 1
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		hud_deathnotice_threats 1
+		z_speed 350
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_ledge_grab_health 15
+		survivor_limp_health 2
+		tank_burn_duration 60
+		tank_burn_duration_expert 60
+		tank_burn_duration_hard 60
+		tank_throw_allow_range 999999
+		z_tank_incapacitated_health 0
+		sb_max_team_melee_weapons 4
+		pain_pills_health_value 100
+		survivor_max_incapacitated_count 0
+		survival_round_restart_delay 10
+		survival_tank_stage_interval 999999
+		survival_tank_stage_interval_decay 0
+		z_gun_swing_vs_max_penalty 99999999
+		z_gun_swing_vs_min_penalty 99999999
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+	}
+}
+

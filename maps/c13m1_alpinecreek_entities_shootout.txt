@@ -1,0 +1,66 @@
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 114 0"
+	"Order" "1"
+	"targetname" "pvp_deathmatch_spawn_1"
+	"origin" "-2396.94 -102.421 311.507"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 324.5 0"
+	"Order" "3"
+	"targetname" "pvp_deathmatch_spawn_2"
+	"origin" "-3401.9 3527.69 432.739"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 270 0"
+	"Order" "4"
+	"targetname" "pvp_deathmatch_spawn_3"
+	"origin" "480.825 3740.42 416"
+}
+"entity"
+{
+	"classname" "info_survivor_position"
+	"angles" "0 20 0"
+	"Order" "2"
+	"targetname" "pvp_deathmatch_spawn_4"
+	"origin" "489.121 647.646 626.697"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 270.5 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props/cs_militia/ladderrung.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1064 231 642"
+}
+"entity"
+{
+	"classname" "prop_dynamic"
+	"angles" "0 271 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props/cs_militia/ladderwood.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "873 2237 541"
+}

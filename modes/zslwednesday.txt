@@ -1,0 +1,67 @@
+"zslwednesday"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Wednesday Night Witching Hour!!"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103|ANG3Lskye"
+
+	convar
+	{
+		cl_glow_ability_b 1.0
+		cl_glow_ability_g 0.0
+		cl_glow_ability_r 1.0
+		//ammo_assaultrifle_max -2
+		//ammo_autoshotgun_max -2
+		//ammo_huntingrifle_max -2
+		//ammo_shotgun_max -2
+		//ammo_smg_max -2
+		//ammo_sniperrifle_max -2
+		//cl_ragdoll_maxcount 0
+		//cl_ragdoll_maxcount_boss 0
+		hud_deathnotice_threats 1
+		//survivor_burn_factor_easy 0
+		//survivor_burn_factor_expert 0
+		//survivor_burn_factor_hard 0
+		//survivor_burn_factor_normal 0
+		survivor_friendly_fire_factor_easy 0
+		survivor_friendly_fire_factor_normal 0
+		survivor_friendly_fire_factor_hard 0
+		survivor_friendly_fire_factor_expert 0
+		survivor_incap_decay_rate 10
+		survivor_limp_health 2
+		//survivor_limp_walk_speed 210
+		survivor_max_incapacitated_count 0
+		survivor_revive_duration 1
+		survivor_revive_health 100
+		sv_infinite_primary_ammo 1
+		witch_force_wander 1
+		z_survivor_respawn_health 100
+		z_witch_anger_rate 100
+		z_witch_burn_time 1
+		z_witch_damage 10
+		z_witch_flashlight_range 99999
+		z_witch_health 200 //50 300
+		z_witch_max_threat_time 0 //7
+		z_witch_min_threat_time 0 //5
+		z_witch_personal_space 99999
+		z_witch_speed 250
+		z_witch_threat_hostile_range 99999
+		z_witch_threat_normal_range 99999
+		z_witch_wander_hear_radius 99999
+		z_witch_wander_personal_space 99999
+		z_witch_wander_personal_time 0
+		sb_all_bot_game 1
+		allow_all_bot_survivor_team 1
+		sb_friend_immobilized_reaction_time_expert 999999
+		sb_friend_immobilized_reaction_time_hard 999999
+		sb_friend_immobilized_reaction_time_normal 999999
+		sb_friend_immobilized_reaction_time_vs 999999
+	}
+}
+

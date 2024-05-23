@@ -1,0 +1,23 @@
+"cmutation7"
+{
+	"base"		"survival"
+	"maxplayers"    "1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Last Survival On Earth"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"dani1341"
+
+	convar
+	{
+		"z_jockey_ride_damage" 15
+		"z_pounce_damage" 10
+		"tongue_choke_damage_amount" 15
+		"tongue_drag_damage_amount" 15
+		sv_pausable 1
+	}
+}
+

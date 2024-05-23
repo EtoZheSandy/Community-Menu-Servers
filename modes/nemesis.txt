@@ -1,0 +1,25 @@
+"nemesis"
+{
+	"base"		"coop"
+	"maxplayers"    "1"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Nemesis"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"SuperNerd000"
+
+	convar
+	{
+		survivor_limit 1
+		z_charger_allow_shove 1
+		z_charger_health 10000
+		z_tank_health 1
+		z_charger_speed 150
+		z_witch_health 1
+		sv_pausable 1
+	}
+}
+

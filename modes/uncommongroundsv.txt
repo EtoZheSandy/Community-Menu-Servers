@@ -1,0 +1,24 @@
+"uncommongroundsv"
+{
+	"base"		"survival"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Uncommon Ground Survival"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		sv_infected_police_tonfa_probability 0
+		sv_infected_riot_control_tonfa_probability 0
+		z_fallen_kill_suppress_time 60
+		z_fallen_max_count 3
+		z_mob_spawn_min_size 30
+		z_mob_spawn_max_size 40
+	}
+}
+

@@ -1,0 +1,48 @@
+"madness"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Madness"
+	"ShortDescription"	""
+	"Description"	"Madness – Also known as SPARTAAAA! Just kidding. In this mode no special infected will spawn, however normal infected will spawn much more frequently, will move faster, and will deal increased damage. In addition, there will also be an increase in the rate of random panic events."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"DarkDragon"
+
+	convar
+	{
+		z_speed 200
+		z_spawn_mobs_behind_chance 33
+		z_mob_spawn_min_size 50
+		z_mob_spawn_max_size 80
+		z_mob_population_density 4
+		z_spawn_speed 80
+		z_common_limit 90
+		z_mega_mob_size 90
+		z_mob_spawn_min_interval_normal 1
+		z_mob_spawn_max_interval_normal 3
+		z_max_blood_scale 10
+		director_no_bosses 1
+		director_no_specials 1
+		z_respawn_interval 1
+		director_panic_forever 1
+		z_attack_incapacitated_damage 500
+		r_raindensity 20
+		director_scavenge_item_override 1 //added to read density commands
+		director_adrenaline_density 0
+		director_ammo_density 12
+		director_defibrillator_density 12
+		director_melee_weapon_density 24
+		director_molotov_density 0
+		director_pain_pill_density 12
+		director_pipe_bomb_density 0
+		director_pistol_density 2
+		director_super_weapon_density 1
+		director_upgradepack_density 0
+		director_vomitjar_density 0
+		sb_max_team_melee_weapons 4
+	}
+}
+

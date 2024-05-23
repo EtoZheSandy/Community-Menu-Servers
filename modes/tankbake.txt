@@ -1,0 +1,38 @@
+"tankbake"
+{
+	"base"		"coop"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Tank Bake"
+	"ShortDescription"	"It's Baking time!"
+	"Description"	"No Common Infected spawn, only Tanks. One Tank spawns every 20 seconds, with a max of 8 Tanks. You only have a Magnum and one molotov on you, but you'll find a lot more mollies along the way. You'll have to use molotov's to bake the Tanks. They will die quicker when on fire, this is your only defense against the Tanks."
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		first_aid_kit_use_duration 2
+		hud_deathnotice_threats 1
+		survivor_allow_crawling 1
+		survivor_crawl_speed 75
+		survivor_burn_factor_easy 0
+		survivor_burn_factor_expert 0
+		survivor_burn_factor_hard 0
+		survivor_burn_factor_normal 0
+		survivor_incap_decay_rate 10
+		survivor_limp_health 1
+		survivor_limp_walk_speed 210
+		survivor_revive_duration 2
+		survivor_revive_health 50
+		tank_burn_duration 2
+		tank_burn_duration_expert 5
+		tank_burn_duration_hard 2
+		tank_throw_allow_range 999999
+		z_tank_health 1000
+		z_tank_incapacitated_health 0
+		z_tank_throw_interval 30
+	}
+}
+

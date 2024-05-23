@@ -1,0 +1,21 @@
+"deathsdoorhc"
+{
+	"base"		"realism"
+	"maxplayers"    "4"
+	"hidden"	"1"
+
+	"DisplayTitle"	"Hardcore Death's Door"
+	"ShortDescription"	""
+	"Description"	""
+
+	"Image"		"vgui/mutation_mod"
+	"Author"	"Rayman1103"
+
+	convar
+	{
+		cl_drawhud 0
+		hidehud 64
+		survivor_max_incapacitated_count 0
+	}
+}
+

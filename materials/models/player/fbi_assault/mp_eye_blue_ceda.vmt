@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/fbi_assault/mp_eye_blue_ceda"
+	"$bumpmap" "models/player/fbi_assault/mp_eye_n_ceda"
+}
