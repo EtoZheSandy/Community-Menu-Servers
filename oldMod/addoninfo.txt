@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "Community Menu Servers" 
+     addonversion            "1"
+     addonauthor             "Sandy"
+     addonDescription        "Adds buttons with Community Servers" 
+}
+ 
