@@ -154,22 +154,22 @@
 		"mode" [!$X360GUEST]
 		{
 			"id"				"BtnCusMutations"
-			"name"				"CUS MUTATIONS"
+			"name"				"COM Servers"
 			"image"				"vgui/menu_mode_biohazard"
 			"command"			"FlmCusMutationsFlyout"
-			"menutitle"			"CUSTOM MUTATIONS"
-			"menuhint"			"Select a Mutation category from the list."
+			"menutitle"			"Communuty Servers"
+			"menuhint"			"Select a Communuty Servers from the list."
 		}
 		
-		"mode" [!$X360GUEST]
-		{
-			"id"				"BtnZSL"
-			"name"				"          ZSL"
-			"image"				"vgui/menu_mode_ZSL"
-			"command"			"FlmZSLFlyout"
-			"menutitle"			"HEAD2HEAD - COMPETITIVE EVENTS"
-			"menuhint"			"Enter the Zombie Sports League and defeat your friends!"
-		}
+		//"mode" [!$X360GUEST]
+		//{
+		//	"id"				"BtnZSL"
+		//	"name"				"          ZSL"
+		//	"image"				"vgui/menu_mode_ZSL"
+		//	"command"			"FlmZSLFlyout"
+		//	"menutitle"			"HEAD2HEAD - COMPETITIVE EVENTS"
+		//	"menuhint"			"Enter the Zombie Sports League and defeat your friends!"
+		//}
 		//RMMmodes_end
 		
 		"mode" [!$X360GUEST]
