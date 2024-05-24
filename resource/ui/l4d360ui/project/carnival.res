@@ -153,6 +153,6 @@
 		"tooltiptext"			""
 		"disabled_tooltiptext"	""
 		"style"					"FlyoutMenuButton"
-		"command"				"FlmVersusMutationsFlyout"
+		"command"				"FlmCampaignMutationsFlyout"
 	}
 }

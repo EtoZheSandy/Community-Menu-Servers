@@ -1946,6 +1946,7 @@
 	//	"InitialFocus"			"BtnMutationList1"
 	//	"ResourceFile"			"resource/UI/L4D360UI/Mutations/VersusMutationsFlyout.res"
 	//}
+	
 	// подкинул разметку для списка проектов
 	"FlmVersusMutationsFlyout"
 	{
@@ -1956,9 +1957,9 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnMutationList1"
-		"ResourceFile"			"resource/UI/L4D360UI/Mutations/CampaignMutations1Flyout.res"
+		"ResourceFile"			"resource/UI/L4D360UI/Mutations/Versusmutationsflyout.res"
 	}
-	
+	// если вдруг сервер будет больше и они не вместятся на 1 страницу то создадим вторую разметку и повесим на кнопку переключения их
 	"FlmVersusMutations1Flyout"
 	{
 		"ControlName"			"FlyoutMenu"

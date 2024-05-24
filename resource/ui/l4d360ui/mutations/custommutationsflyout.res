@@ -16,7 +16,9 @@
 		"paintbackground"		"1"
 		"paintborder"			"1"
 	}
-	// кнопки открывающиеся в Com servers coop
+
+	// кнопки открывающиеся в Com servers versus
+	// разметка для открытия mainmenu строка 1810
 	"BtnMutationList1"
 	{
 		"ControlName"			"L4D360HybridButton"
@@ -30,21 +32,21 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"wrap"					"1"		
+		"wrap"					"1"
 		"navUp"					"BtnMutationList2"
 		"navDown"				"BtnMutationList2"
-		"labelText"				"#L4D360UI_Mode_coop"
+		"labelText"				"#L4D360UI_Mode_versus"
 		"tooltiptext"			""
 		"disabled_tooltiptext"	""
 		"style"					"FlyoutMenuButton"
-		"command"				"FlmCampaignMutationsFlyout"
+		"command"				"FlmVersusMutationsFlyout"
 	}
-	// кнопки открывающиеся в Com servers versus
-	// разметка для открытия mainmenu строка 1810
+
+	// кнопки открывающиеся в Com servers coop
 	"BtnMutationList2"
 	{
 		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnMutationList5"
+		"fieldName"				"BtnMutationList2"
 		"xpos"					"0"
 		"ypos"					"20"
 		"wide"					"150"
@@ -54,14 +56,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"BtnMutationList4"
-		"navDown"				"BtnMutationList6"
-		"labelText"				"#L4D360UI_Mode_versus"
+		"wrap"					"1"		
+		"navUp"					"BtnMutationList1"
+		"navDown"				"BtnMutationList1"
+		"labelText"				"#L4D360UI_Mode_coop"
 		"tooltiptext"			""
 		"disabled_tooltiptext"	""
 		"style"					"FlyoutMenuButton"
-		"command"				"FlmVersusMutationsFlyout"
+		"command"				"FlmCampaignMutationsFlyout"
 	}
 
 	//"BtnMutationList2"
