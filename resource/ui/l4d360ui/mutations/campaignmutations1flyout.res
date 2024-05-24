@@ -9,18 +9,17 @@
 		"zpos"					"-1"
 		"wide"					"180" [$ENGLISH]
 		"wide"					"270" [!$ENGLISH]
-		"tall"					"25"
-		//"tall"					"385"
+		"tall"					"385"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
 		"paintborder"			"1"
 	}
-
-	"BtnPlayMutation1"
+	// при клике по режиму игры сражение открывается эта разметка со списком проектов
+	"BtnProject1"
 	{
 		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnPlayMutation1"
+		"fieldName"				"BtnProject1"
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"150"
@@ -32,16 +31,60 @@
 		"tabPosition"			"0"
 		"wrap"					"1"		
 		"navUp"					"BtnBack"
-		"navDown"				"BtnPlayMutation2"
-		"labelText"				"Guardians Servers"
+		"navDown"				"BtnProject2"
+		"labelText"				"Guardians Servers Coop"
 		"tooltiptext"			"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip"
 		"disabled_tooltiptext"	"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip_Disabled"
 		"style"					"FlyoutMenuButton"
 		// вот тут начинается самое интересное, нужно открыть меню с серверами данного проекта
-		"command"				"ChangeMutation_three_of_kind"
-		//"command" 				"#con_enable 1;connect 46.174.48.163:27001"
+		"command"				"FlyoutProjectGuardians"
 	}
 
+	"BtnProject2"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnProject2"
+		"xpos"					"0"
+		"ypos"					"20"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnProject1"
+		"navDown"				"BtnProject3"
+		"labelText"				"Freiheit Servers"
+		"tooltiptext"			"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip"
+		"disabled_tooltiptext"	"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip_Disabled"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlyoutProjectFreiheit"
+	}
+
+	"BtnProject3"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnProject3"
+		"xpos"					"0"
+		"ypos"					"40"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnProject2"
+		"navDown"				"BtnBack"
+		"labelText"				"Carnival Servers"
+		"tooltiptext"			"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip"
+		"disabled_tooltiptext"	"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip_Disabled"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlyoutProjectCarnival"
+	}
 	//"BtnPlayMutation2"
 	//{
 	//	"ControlName"			"L4D360HybridButton"
@@ -482,7 +525,7 @@
 		"tooltiptext"			""
 		"disabled_tooltiptext"	""
 		"style"					"FlyoutMenuButton"
-		"command"				"FlmCampaignMutationsFlyout"
+		"command"				"FlmVersusMutationsFlyout"
 	}
 
 	// next servers

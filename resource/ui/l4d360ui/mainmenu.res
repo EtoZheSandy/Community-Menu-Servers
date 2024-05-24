@@ -416,6 +416,70 @@
 		"style"                                 "MainMenuButton"
 		"command"                               "Flm1L2LMutationsFlyout"
 	}
+	// обязательно добавляем этот хук для новой группы серверов проекта!
+	"Btn1L2LMutationsTest"
+	{
+		"ControlName"                           "L4D360HybridButton"
+		"FieldName"                             "Btn1L2LMutations"
+		"xpos"                                  "c-177"//flyouts xpos. This has to be adjusted to match gamemodes' initial flyouts xpos, which depend on "wideatopen" setting
+		"ypos"                                  "160"//flyouts ypos
+		"wide"                                  "0"//flyouts width
+		"tall"                                  "20"
+		"visible"                               "0"
+		"enabled"                               "1"
+		"labeltext"                             ""
+		"tooltiptext"                           ""
+		"style"                                 "MainMenuButton"
+		"command"                               "Flm1L2LMutationsFlyoutTest"
+	}
+	// Guardians Servers
+	"BtnGuardiansServers"
+	{
+		"ControlName"                           "L4D360HybridButton"
+		"FieldName"                             "Btn1L2LMutations"
+		"xpos"                                  "c-177"//flyouts xpos. This has to be adjusted to match gamemodes' initial flyouts xpos, which depend on "wideatopen" setting
+		"ypos"                                  "160"//flyouts ypos
+		"wide"                                  "0"//flyouts width
+		"tall"                                  "20"
+		"visible"                               "0"
+		"enabled"                               "1"
+		"labeltext"                             ""
+		"tooltiptext"                           ""
+		"style"                                 "MainMenuButton"
+		"command"                               "FlyoutProjectGuardians"
+	}
+	// Freiheit Servers
+	"BtnFreiheitServers"
+	{
+		"ControlName"                           "L4D360HybridButton"
+		"FieldName"                             "Btn1L2LMutations"
+		"xpos"                                  "c-177"//flyouts xpos. This has to be adjusted to match gamemodes' initial flyouts xpos, which depend on "wideatopen" setting
+		"ypos"                                  "160"//flyouts ypos
+		"wide"                                  "0"//flyouts width
+		"tall"                                  "20"
+		"visible"                               "0"
+		"enabled"                               "1"
+		"labeltext"                             ""
+		"tooltiptext"                           ""
+		"style"                                 "MainMenuButton"
+		"command"                               "FlyoutProjectFreiheit"
+	}
+	// Carnival Servers
+	"BtnCarnivalServers"
+	{
+		"ControlName"                           "L4D360HybridButton"
+		"FieldName"                             "Btn1L2LMutations"
+		"xpos"                                  "c-177"//flyouts xpos. This has to be adjusted to match gamemodes' initial flyouts xpos, which depend on "wideatopen" setting
+		"ypos"                                  "160"//flyouts ypos
+		"wide"                                  "0"//flyouts width
+		"tall"                                  "20"
+		"visible"                               "0"
+		"enabled"                               "1"
+		"labeltext"                             ""
+		"tooltiptext"                           ""
+		"style"                                 "MainMenuButton"
+		"command"                               "FlyoutProjectCarnival"
+	}
 	"BtnVIPMutations"
 	{
 		"ControlName"                           "L4D360HybridButton"
@@ -1614,6 +1678,18 @@
 		"InitialFocus"			"BtnPlayMutation1"
 		"ResourceFile"			"resource/UI/L4D360UI/Mutations/CampaignMutations1Flyout.res"
 	}
+
+	//"FlmCampaignMutations1FlyoutGuardian"
+	//{
+	//	"ControlName"			"FlyoutMenu"
+	//	"fieldName"				"FlmCampaignMutations1FlyoutGuardian"
+	//	"visible"				"0"
+	//	"wide"					"0"
+	//	"tall"					"0"
+	//	"zpos"					"3"
+	//	"InitialFocus"			"BtnPlayMutation1"
+	//	"ResourceFile"			"resource/UI/L4D360UI/guardian_servers.res"
+	//}
 	
 	"FlmCampaignMutations2Flyout"
 	{
@@ -1661,6 +1737,58 @@
 		"zpos"					"3"
 		"InitialFocus"			"BtnPlayMutation1"
 		"ResourceFile"			"resource/UI/L4D360UI/Mutations/1L2LMutationsFlyout.res"
+	}
+
+	// Внимание! перед добавлением своих серверов и своей разметке не зубдь инициализировать название своего хука! fieldName
+	"Flm1L2LMutationsFlyoutTest"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"Flm1L2LMutationsFlyoutTest"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnPlayMutation1"
+		"ResourceFile"			"resource/UI/L4D360UI/Project/guardians.res"
+	}
+
+	// Guardians Servers 
+	"FlyoutProjectGuardians"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlyoutProjectGuardians"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnPlayMutation1"
+		"ResourceFile"			"resource/UI/L4D360UI/Project/guardians.res"
+	}
+	
+	// Freiheit Servers
+	"FlyoutProjectFreiheit"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlyoutProjectFreiheit"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnPlayMutation1"
+		"ResourceFile"			"resource/UI/L4D360UI/Project/freiheit.res"
+	}
+
+	// Carnival Servers
+	"FlyoutProjectCarnival"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlyoutProjectCarnival"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnPlayMutation1"
+		"ResourceFile"			"resource/UI/L4D360UI/Project/carnival.res"
 	}
 	
 	"FlmVIPMutationsFlyout"
