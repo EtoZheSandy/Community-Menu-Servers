@@ -1807,6 +1807,18 @@
 		"ResourceFile"			"resource/UI/L4D360UI/Mutations/VersusTrainingMutationsFlyout.res"
 	}
 	
+	//"FlmVersusMutationsFlyout"
+	//{
+	//	"ControlName"			"FlyoutMenu"
+	//	"fieldName"				"FlmVersusMutationsFlyout"
+	//	"visible"				"0"
+	//	"wide"					"0"
+	//	"tall"					"0"
+	//	"zpos"					"3"
+	//	"InitialFocus"			"BtnMutationList1"
+	//	"ResourceFile"			"resource/UI/L4D360UI/Mutations/VersusMutationsFlyout.res"
+	//}
+	// подкинул разметку для списка проектов
 	"FlmVersusMutationsFlyout"
 	{
 		"ControlName"			"FlyoutMenu"
@@ -1816,7 +1828,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnMutationList1"
-		"ResourceFile"			"resource/UI/L4D360UI/Mutations/VersusMutationsFlyout.res"
+		"ResourceFile"			"resource/UI/L4D360UI/Mutations/CampaignMutations1Flyout.res"
 	}
 	
 	"FlmVersusMutations1Flyout"

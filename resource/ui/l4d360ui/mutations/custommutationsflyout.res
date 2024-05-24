@@ -16,7 +16,7 @@
 		"paintbackground"		"1"
 		"paintborder"			"1"
 	}
-
+	// кнопки открывающиеся в Com servers coop
 	"BtnMutationList1"
 	{
 		"ControlName"			"L4D360HybridButton"
@@ -39,7 +39,8 @@
 		"style"					"FlyoutMenuButton"
 		"command"				"FlmCampaignMutationsFlyout"
 	}
-	
+	// кнопки открывающиеся в Com servers versus
+	// разметка для открытия mainmenu строка 1810
 	"BtnMutationList2"
 	{
 		"ControlName"			"L4D360HybridButton"
