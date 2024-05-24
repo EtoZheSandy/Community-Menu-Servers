@@ -1,12 +1,9 @@
-### Пока в разработке 
+### Модификация для добавление серверов сообщества в главное меню
+<p float="left">
+  <img src="./addonimage.jpg" width="70%" />
+</p>
 
-## Старый плагин в нем можно подсмотреть реализацию /oldMod
-
-### Исходник старого мода https://steamcommunity.com/sharedfiles/filedetails/?id=2256147202
-
-### Исходник для нового мода https://steamcommunity.com/sharedfiles/filedetails/?id=198414240&searchtext=urik
-
-
+### Исходник для мода https://steamcommunity.com/sharedfiles/filedetails/?id=198414240&searchtext=urik
 
 #### Как это работает?
 - В resource\ui\l4d360ui\mutations\custommutationsflyout.res определяется Икнока для главного экрана там же прописываются режимы игры
