@@ -9,7 +9,7 @@
 		"zpos"					"-1"
 		"wide"					"180" [$ENGLISH]
 		"wide"					"270" [!$ENGLISH]
-		"tall"					"25"
+		"tall"					"45"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
@@ -382,5 +382,32 @@
 		"disabled_tooltiptext"	""
 		"style"					"FlyoutMenuButton"
 		"command"				"FlmCusMutationsFlyout"
+	}
+	"BtnBack"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnBack"
+		"xpos"					"80"	[!$ENGLISH]
+		"xpos"					"60"
+		"ypos"					"20"
+		"zpos"					"1"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnPlayMutation3"
+		"navDown"				"BtnPlayMutation1"
+		"navLeft"				"BtnPrev"
+		"navRight"				"BtnNext"
+		//"labelText"				"#L4D360UI_Tooltip_Back"
+		"labelText"				"Back"
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmCustomMutationsFlyout"
 	}
 }

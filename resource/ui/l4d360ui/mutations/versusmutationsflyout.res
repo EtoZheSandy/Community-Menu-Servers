@@ -55,7 +55,7 @@
 		"tabPosition"			"0"
 		"wrap"					"1"		
 		"navUp"					"BtnProject1"
-		"navDown"				"BtnBack"
+		"navDown"				"BtnProject3"
 		"labelText"				"Freiheit Servers"
 		"tooltiptext"			"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip"
 		"disabled_tooltiptext"	"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip_Disabled"
@@ -63,28 +63,29 @@
 		"command"				"FlyoutProjectFreiheit"
 	}
 
-	//"BtnProject3"
-	//{
-	//	"ControlName"			"L4D360HybridButton"
-	//	"fieldName"				"BtnProject3"
-	//	"xpos"					"0"
-	//	"ypos"					"40"
-	//	"wide"					"150"
-	//	"tall"					"20"
-	//	"autoResize"			"1"
-	//	"pinCorner"				"0"
-	//	"visible"				"1"
-	//	"enabled"				"1"
-	//	"tabPosition"			"0"
-	//	"wrap"					"1"		
-	//	"navUp"					"BtnProject2"
-	//	"navDown"				"BtnBack"
-	//	"labelText"				"Carnival Servers"
-	//	"tooltiptext"			"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip"
-	//	"disabled_tooltiptext"	"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip_Disabled"
-	//	"style"					"FlyoutMenuButton"
-	//	"command"				"FlyoutProjectCarnival"
-	//}
+	"BtnProject3"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnProject3"
+		"xpos"					"0"
+		"ypos"					"40"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnProject2"
+		"navDown"				"BtnBack"
+		"labelText"				"ClassicCut Servers"
+		"tooltiptext"			"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip"
+		"disabled_tooltiptext"	"#L4D360UI_MainMenu_PlayCoOpWithAnyone_Tip_Disabled"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlyoutProjectClassicCut"
+	}
+
 	//"BtnPlayMutation2"
 	//{
 	//	"ControlName"			"L4D360HybridButton"
@@ -525,7 +526,7 @@
 		"tooltiptext"			""
 		"disabled_tooltiptext"	""
 		"style"					"FlyoutMenuButton"
-		"command"				"FlmVersusMutationsFlyout"
+		"command"				"FlmCustomMutationsFlyout"
 	}
 
 	// next servers

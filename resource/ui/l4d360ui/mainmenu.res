@@ -480,6 +480,22 @@
 		"style"                                 "MainMenuButton"
 		"command"                               "FlyoutProjectCarnival"
 	}
+	// ClassicCut Servers
+	"BtnClassicCutServers"
+	{
+		"ControlName"                           "L4D360HybridButton"
+		"FieldName"                             "Btn1L2LMutations"
+		"xpos"                                  "c-177"//flyouts xpos. This has to be adjusted to match gamemodes' initial flyouts xpos, which depend on "wideatopen" setting
+		"ypos"                                  "160"//flyouts ypos
+		"wide"                                  "0"//flyouts width
+		"tall"                                  "20"
+		"visible"                               "0"
+		"enabled"                               "1"
+		"labeltext"                             ""
+		"tooltiptext"                           ""
+		"style"                                 "MainMenuButton"
+		"command"                               "FlyoutProjectClassicCut"
+	}
 	"BtnVIPMutations"
 	{
 		"ControlName"                           "L4D360HybridButton"
@@ -1789,6 +1805,19 @@
 		"zpos"					"3"
 		"InitialFocus"			"BtnPlayMutation1"
 		"ResourceFile"			"resource/UI/L4D360UI/Project/carnival.res"
+	}
+
+	// ClassicCut Servers
+	"FlyoutProjectClassicCut"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlyoutProjectClassicCut"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnPlayMutation1"
+		"ResourceFile"			"resource/UI/L4D360UI/Project/classiccut.res"
 	}
 	
 	"FlmVIPMutationsFlyout"
