@@ -9,7 +9,7 @@
 		"zpos"					"-1"
 		"wide"					"180" [$ENGLISH]
 		"wide"					"270" [!$ENGLISH]
-		"tall"					"385"
+		"tall"					"85"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
@@ -507,7 +507,7 @@
 		"fieldName"				"BtnBack"
 		"xpos"					"80"	[!$ENGLISH]
 		"xpos"					"60"
-		"ypos"					"360"
+		"ypos"					"60"
 		"zpos"					"1"
 		"wide"					"150"
 		"tall"					"20"
